@@ -1,0 +1,43 @@
+WEAZLBOOK R04 — DIMENSIONED APPROVAL BLOCKOUT
+
+Purpose: review the appearance and proposed packing of an 80 x 156 mm reader
+with a nominal 14 mm top and 26 mm lower grip. This is not production CAD,
+not a firmware release, and not a print plate. The user has reserved the CAD,
+print-plate and software handoff for after approval of this mockup.
+
+build_mockup.py constructs the same CadQuery solids for all six rendered
+views. It uses millimetres, with X right, Y down and Z rearward from the front.
+No generative image is used to establish mechanical fit. The sample reading
+text is original placeholder prose, set in IBM Plex Mono.
+
+component_layout.json separates published dimensions, photo-derived locations
+and design allowances. Blue/grey/green blocks are component envelopes, not
+invented exact models of vendor hardware. Amber blocks represent provisional
+FPC fold space and the PH battery plug/lead fit check. Colored harness lines
+show routing corridors, not a final wire count or electrical pinout.
+
+The selected display is the current Good Display GDEY0397T81P plus its
+manufacturer-supported DESPI-C02 adapter. The supplier's purchase page still
+uses a legacy GDEM name in its URL/title. Verify the delivered current suffix
+against the drawing before releasing production mounting features.
+
+Unresolved local measurements: actual nav mechanism/stem/cap interface;
+complete driver height and seated FPC position; mainboard assembly heights;
+simultaneous USB cable boot and mated battery plug clearance; the protected
+cell and lead exit. These are disclosed in the approval PDF. Battery runtime
+and radio performance have not been measured. The 2–3 day reading goal is
+a future firmware/power validation target, not a result of this model.
+
+Reproduction requires Python 3, CadQuery 2.7, NumPy, Pillow, ModernGL with a
+headless EGL context, and ReportLab. The original environment used llvmpipe.
+Keep the archived research/fonts directory next to weazlbook_mockup_r04.
+IBM Plex Mono is bundled with its SIL Open Font License.
+
+Run source/build_mockup.py, source/compose_overview.py and then
+source/build_approval_pdf.py from the extracted project. The original runtime
+made ModernGL available with PYTHONPATH=/tmp/weazlbook-render-deps; a normal
+Python environment with ModernGL installed does not need that setting.
+
+Design cues: acid-green shell, black service cover and bezel, exposed screws,
+faceted edges, cyan/magenta printed inserts, a black rubber thumb nub, two
+lower keys, and the quiet NEVER TAX THE GIG inscription inside the cover.

@@ -1,0 +1,68 @@
+{
+  "pair": "GDEY0397T81P + DESPI-C02",
+  "compatibility_source": "https://www.good-display.com/product/613.html",
+  "panel": {
+    "body_portrait_mm": [
+      56.24,
+      96.62,
+      0.92
+    ],
+    "body_tolerances_mm": [
+      0.2,
+      0.2,
+      0.1
+    ],
+    "active_area_portrait_mm": [
+      51.84,
+      86.4
+    ],
+    "unfolded_fpc_extension_mm": 33.66,
+    "fpc_extension_tolerance_mm": 0.3,
+    "fpc_pins": 24,
+    "fpc_pitch_mm": 0.5,
+    "controller": "SSD1677",
+    "resolution_portrait": [
+      480,
+      800
+    ],
+    "partial_fast_full_seconds": [
+      0.3,
+      1.5,
+      3
+    ],
+    "purchase_url": "https://buy-lcd.com/products/gdem0397t81p",
+    "purchase_caveat": "Manufacturer reuses old GDEM storefront URL/title but specifications table says GDEY. Confirm actual delivered suffix and current drawing before final production CAD."
+  },
+  "adapter": {
+    "model": "DESPI-C02",
+    "pcb_mm": [
+      41,
+      22
+    ],
+    "voltage": 3.3,
+    "interface_pins": [
+      "BUSY",
+      "RES",
+      "DC",
+      "CS",
+      "SCK",
+      "SDI",
+      "GND",
+      "3.3V"
+    ],
+    "rese_setting_for_ssd_ohms": 2.2,
+    "purchase_url": "https://buy-lcd.com/products/development-kit-connection-adapter-board-for-eaper-display-demo-kit",
+    "unknowns": [
+      "PCB thickness",
+      "assembled height",
+      "connector and header mechanical envelopes",
+      "mounting dimensions"
+    ]
+  },
+  "packaging_notes": [
+    "Raw panel is not a complete standalone ESP32-connectable assembly; required booster passives are on the DESPI-C02.",
+    "Account for FPC length, gentle bend and strain relief, connector access and PCB height.",
+    "Only planar body dimensions are supported for adapter; do not invent assembled height.",
+    "Current adapter manual labels 2.2-ohm selection for SSD; old 2018 schematic shows 3-ohm legacy option. Use delivered/current adapter revision and panel reference circuit."
+  ]
+}

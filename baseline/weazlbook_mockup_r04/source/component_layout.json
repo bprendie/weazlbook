@@ -1,0 +1,184 @@
+{
+  "revision": "R04",
+  "status": "DIMENSIONED APPROVAL BLOCKOUT; NOT PRINT-READY",
+  "units": "mm; X right Y down Z rearward from shell front",
+  "shell": {
+    "width": 80,
+    "height": 156,
+    "top_depth": 14,
+    "grip_depth": 26,
+    "wall_nominal": 2.4,
+    "rear_cover": 2.2,
+    "controls_protrude": 3.95
+  },
+  "parts": [
+    {
+      "name": "GDEY0397T81P",
+      "published": [
+        56.24,
+        96.62,
+        0.92
+      ],
+      "tolerance": [
+        0.2,
+        0.2,
+        0.1
+      ],
+      "xy": [
+        11.88,
+        9
+      ],
+      "z_glass": [
+        2.2,
+        3.22
+      ],
+      "source": "https://www.good-display.com/product/613.html"
+    },
+    {
+      "name": "DESPI-C02",
+      "published_pcb": [
+        41,
+        22
+      ],
+      "reserved_full_depth": 8,
+      "xy": [
+        7.13,
+        54
+      ],
+      "xyz_envelope": [
+        7.13,
+        54,
+        5.5,
+        22,
+        41,
+        8
+      ],
+      "header_projection": 6,
+      "source": "https://www.good-display.com/product/516.html"
+    },
+    {
+      "name": "LOLIN S3 PRO",
+      "published_pcb": [
+        65.3,
+        25.4
+      ],
+      "xy": [
+        10,
+        122
+      ],
+      "pcb_z": [
+        14,
+        15.6
+      ],
+      "max_regional_z": 21.1,
+      "source": "https://www.wemos.cc/en/latest/s3/s3_pro.html"
+    },
+    {
+      "name": "Adafruit 1578 500mAh",
+      "catalog": [
+        29,
+        36,
+        4.75
+      ],
+      "design_cell_envelope": [
+        30,
+        36,
+        6
+      ],
+      "bay": [
+        40,
+        75,
+        9.5,
+        32,
+        38,
+        7
+      ],
+      "source": "https://www.adafruit.com/product/1578"
+    },
+    {
+      "name": "EC Buying navigation",
+      "published_pcb": [
+        31,
+        25
+      ],
+      "xy": [
+        28,
+        117
+      ],
+      "rear_z_max": 12.5,
+      "stem_xy_estimated": [
+        40,
+        129.5
+      ],
+      "header_and_wire_projection": 12,
+      "source": "https://www.amazon.com/dp/B0D8T4YQ3Y"
+    },
+    {
+      "name": "Sprintek 109-00060 rubber cap",
+      "cap_geometry": "provisional \u00d89.6 x2.3; keep \u00d814 sweep zone; adapter required",
+      "source": "https://store.sprintek.com/category/flexpoint-pointing-stick"
+    },
+    {
+      "name": "2 x Omron B3F-1000",
+      "published_body": [
+        6,
+        6,
+        4.3
+      ],
+      "occupied_bays": [
+        [
+          18,
+          143,
+          3.5,
+          12,
+          10,
+          9
+        ],
+        [
+          50,
+          143,
+          3.5,
+          12,
+          10,
+          9
+        ]
+      ],
+      "source": "https://components.omron.com/us-en/datasheet_pdf/A070-E1.pdf"
+    }
+  ],
+  "remaining_measurements": [
+    "DESPI-C02 full assembly height and exact FPC insertion depth",
+    "Navigation stem, cap socket and installed rear depth <=12.5",
+    "S3 PCB thickness and connector heights; USB cable boot with battery plug simultaneously inserted",
+    "Actual protected cell and wire exit; current GDEY delivered panel suffix"
+  ],
+  "fpc": {
+    "published_tip_extension": 33.66,
+    "reserved_pocket": [
+      11.5,
+      91,
+      3,
+      40.5,
+      25,
+      5
+    ],
+    "proposed_bend_radius": 2,
+    "proposed_tip_y": 93,
+    "computed_apex_y": 114.998,
+    "status": "Amber block shows fold clearance only, not a fabricated flex model. Provisional new fold; not manufacturer bend validation. Driver carrier must allow adjustment for actual ZIF insertion depth."
+  },
+  "claims_not_made": [
+    "No production tolerances or screw lengths frozen",
+    "No measured battery runtime",
+    "No working firmware represented",
+    "No verified RF clearance or antenna performance"
+  ],
+  "notes": [
+    "Major component footprints at source dimensions; connector bodies simplified to allowances",
+    "Amber blocks reserve FPC fold space and a PH plug/lead fit check; they are not fabricated hardware models",
+    "Colored strands indicate harness corridors, not wire count or a final pinout",
+    "Rear access for microSD; no invented external SD slot",
+    "Short 28AWG device harness; retain factory protected battery leads",
+    "Original concept outer target preserved at the 14/26 mm endpoints"
+  ]
+}

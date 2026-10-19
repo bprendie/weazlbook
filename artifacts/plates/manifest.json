@@ -1,0 +1,110 @@
+{
+  "01_coupons": {
+    "file": "artifacts/plates/01_coupons.3mf",
+    "parts": [
+      "pilot_1.5mm",
+      "pilot_1.6mm",
+      "pilot_1.7mm",
+      "pilot_1.8mm",
+      "pilot_1.9mm",
+      "nav_square_2.45mm",
+      "nav_square_2.50mm",
+      "nav_square_2.55mm",
+      "nav_square_2.60mm",
+      "nav_square_2.65mm",
+      "key_guide",
+      "key_slider",
+      "ph_usb_wall",
+      "ph_usb_cover",
+      "fpc_radius_2_assumption"
+    ],
+    "export_exit": 0,
+    "reopen_exit": 0,
+    "printed": false,
+    "sliced": false,
+    "profile": "Polymaker PolyLite ABS assumption, 12 mm3/s provisional"
+  },
+  "acid_green": {
+    "file": "artifacts/plates/acid_green.3mf",
+    "parts": [
+      "shell"
+    ],
+    "export_exit": 0,
+    "reopen_exit": 0,
+    "printed": false,
+    "sliced": false,
+    "profile": "Polymaker PolyLite ABS assumption, 12 mm3/s provisional"
+  },
+  "black": {
+    "file": "artifacts/plates/black.3mf",
+    "parts": [
+      "mainboard_clamp_0",
+      "mainboard_clamp_1",
+      "mainboard_clamp_2",
+      "bezel",
+      "nav_carrier",
+      "nav_retainer_0",
+      "nav_retainer_1",
+      "display_bridge_0",
+      "display_bridge_1",
+      "driver_carrier_adjustable",
+      "battery_tray",
+      "back_key",
+      "back_carrier",
+      "mark_key",
+      "mark_carrier",
+      "cap_adapter_provisional"
+    ],
+    "export_exit": 0,
+    "reopen_exit": 0,
+    "printed": false,
+    "sliced": false,
+    "profile": "Polymaker PolyLite ABS assumption, 12 mm3/s provisional"
+  },
+  "cyan": {
+    "file": "artifacts/plates/cyan.3mf",
+    "parts": [
+      "cyan_insert"
+    ],
+    "export_exit": 0,
+    "reopen_exit": 0,
+    "printed": false,
+    "sliced": false,
+    "profile": "Polymaker PolyLite ABS assumption, 12 mm3/s provisional"
+  },
+  "magenta": {
+    "file": "artifacts/plates/magenta.3mf",
+    "parts": [
+      "magenta_insert"
+    ],
+    "export_exit": 0,
+    "reopen_exit": 0,
+    "printed": false,
+    "sliced": false,
+    "profile": "Polymaker PolyLite ABS assumption, 12 mm3/s provisional"
+  },
+  "tpu_black": {
+    "file": "artifacts/plates/tpu_black.3mf",
+    "parts": [
+      "back_tpu_face",
+      "mark_tpu_face",
+      "key_tpu_face"
+    ],
+    "export_exit": 0,
+    "reopen_exit": 0,
+    "printed": false,
+    "sliced": false,
+    "profile": "Generic TPU 95A, 2 mm3/s provisional"
+  },
+  "black_cover": {
+    "file": "artifacts/plates/black_cover.3mf",
+    "parts": [
+      "service_cover"
+    ],
+    "export_exit": 0,
+    "reopen_exit": 0,
+    "printed": false,
+    "sliced": false,
+    "profile": "Polymaker PolyLite ABS assumption, 12 mm3/s provisional"
+  }
+}

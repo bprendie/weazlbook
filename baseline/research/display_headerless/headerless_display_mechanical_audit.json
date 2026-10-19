@@ -1,0 +1,77 @@
+{
+  "selection": {
+    "panel": "Good Display GDEY0397T81P",
+    "adapter": "Good Display DESPI-C02, current 2025-09-26 PCB photo / Rev 2.0 manual",
+    "pairing_evidence": "The GDEY0397T81P manufacturer product page explicitly pairs it with DESPI-C02.",
+    "no_raspberry_pi_socket": true,
+    "stock_header_retained": "8-pin 2.54 mm right-angle male header; no desoldering assumed"
+  },
+  "panel_verified_mm": {
+    "portrait_outline_nominal": [56.24, 96.62, 0.92],
+    "outline_tolerance_plus_minus": [0.2, 0.2, 0.1],
+    "thickness_note_verbatim": "No protective film",
+    "active_area_portrait": [51.84, 86.4],
+    "active_area_origin_with_fpc_down": [2.2, 2.2],
+    "inactive_end_below_active_area_with_fpc_down": 8.02,
+    "fpc_free_outline_extension_from_glass_edge_nominal": 33.66,
+    "fpc_extension_tolerance_plus_minus": 0.3,
+    "fpc_thickness_nominal": 0.1,
+    "fpc_thickness_tolerance_plus_minus": 0.03,
+    "fpc_contact_stiffener_thickness_nominal": 0.3,
+    "fpc_contact_stiffener_thickness_tolerance_plus_minus": 0.05,
+    "fpc_contact_end_width_nominal": 12.5,
+    "fpc_contact_end_width_tolerance_plus_minus": 0.1,
+    "fpc_pitch": 0.5,
+    "fpc_contacts": 24,
+    "fpc_direction": "With the front-facing screen upright and FPC down, the tail dog-legs left. Contact tongue is near the left panel edge. It is not centered.",
+    "source": "gdey0397t81p_spec.pdf, Rev 1.0 2026-08-13, pp.4-5"
+  },
+  "adapter_verified": {
+    "pcb_outline_mm": [41, 22],
+    "supply_v": 3.3,
+    "fpc_contacts": 24,
+    "fpc_pitch_mm": 0.5,
+    "fpc_contact_type": "top or top/bottom contact, per manual",
+    "fpc_exit": "Outward through the short edge opposite the 8-pin wire header",
+    "fpc_insertion": "Display white face up with C02 component/connector face up when flat; close latch after insertion",
+    "signals": ["BUSY", "RES", "D/C", "CS", "SCK", "SDI", "GND", "3.3V"],
+    "rese_switch_for_ssd1677_ohm": 2.2,
+    "inductor_for_ssd_uh": 47,
+    "source": "despi_c02_spec.pdf, Rev 2.0 2025-10-26, and official 2025 product photographs"
+  },
+  "adapter_provisional_packaging_allowances_mm": {
+    "complete_board_and_components_z_envelope": 8,
+    "pin_projection_beyond_short_edge": 6,
+    "board_plus_pins_xy": [47, 22],
+    "not_included_in_pin_projection": "Any female plug housing, wire solder joint, heat shrink, bend radius and strain relief",
+    "status": "Conservative provisional allowances. No manufacturer complete Z-height drawing or dimensioned connector placement found. Physical sample verification required."
+  },
+  "photo_scaled_estimates_mm": {
+    "coordinate_system": "Official front flat photo; origin is PCB upper-left before rotation, X along 41 mm toward FPC connector, Y along 22 mm short axis. These are photo-derived estimates, not dimensioned tolerances.",
+    "fpc_connector_center": [38.5, 11],
+    "fpc_housing_approx_xy_bounds": [34.5, 1.5, 40, 20.5],
+    "fpc_cable_mouth_x_approx": 40,
+    "right_angle_wire_header_total_approx_xy_bounds": [-6, 0.8, 4.2, 21.2],
+    "header_metal_pin_tips_x_approx": -6,
+    "root_trial_placement": "For PCB x45..67, y66..107, FPC down: FPC housing roughly x46.5..65.5, y100.5..106; wire pins roughly x45.8..66.2, y60..66; header plastic and bent solder tails extend onto PCB to y~70.2. This RIGHT-side placement does not align with a simple fold of the panel's BOTTOM/LEFT tongue."
+  },
+  "fit_rules": [
+    "Do not mirror the real panel's FPC dog-leg to make the mockup fit.",
+    "With a bottom FPC and a simple fold, align the C02 tongue/socket near panel-left plus 6.25 mm; rotate the physical display 180 degrees only if the opposite FPC location is intended.",
+    "A 180-degree flex fold changes the connector-board face orientation; count components on both sides of the C02.",
+    "FPC route, fold radius, wire terminations, gasket and service slack require explicit geometry. They are not included in the bare component dimensions.",
+    "The shipping protective film is excluded from the specified bare-panel thickness; do not omit any permanent optical layers."
+  ],
+  "sources": {
+    "panel_product": "https://www.good-display.com/product/613.html",
+    "panel_current_datasheet": "https://v4.cecdn.yun300.cn/100001_1909185148/GDEY0397T81P.pdf?download=1",
+    "panel_datasheet_landing": "https://www.good-display.com/companyfile/2107.html",
+    "panel_and_adapter_purchase": "https://buy-lcd.com/products/gdem0397t81p",
+    "adapter_product": "https://www.good-display.com/product/516.html",
+    "adapter_manual": "https://v4.cecdn.yun300.cn/100001_1909185148/DESPI-C02%20Connector%20Board%20for%20E-paper%20Display%20V1.1.pdf",
+    "adapter_purchase": "https://buy-lcd.com/products/development-kit-connection-adapter-board-for-eaper-display-demo-kit",
+    "adapter_flat_photo": "https://ueeshop.ly200-cdn.com/u_file/UPBG/UPBG827/2511/13/products/DESPI-C021.jpg",
+    "adapter_angle_photo": "https://ueeshop.ly200-cdn.com/u_file/UPBG/UPBG827/2511/13/products/DESPI-C023.jpg",
+    "panel_front_photo": "https://ueeshop.ly200-cdn.com/u_file/UPBG/UPBG827/2412/products/02/95893459c6.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+cadquery==2.7.0
+pillow==11.3.0
+trimesh==4.9.0
+pypdf==6.1.1
+defusedxml==0.7.1
+pytest==8.4.2
+cmake==3.31.6
+reportlab==4.4.4
+cairosvg==2.8.2
+shapely==2.1.2

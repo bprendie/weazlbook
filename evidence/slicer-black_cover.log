@@ -1,0 +1,3 @@
+[2026-10-19 12:16:14.918003] [0x00007fddcbc0f100] [trace]   Initializing StaticPrintConfigs
+[2026-10-19 12:16:15.016751] [0x00007fddcbc0f100] [error]   calc_exclude_triangles:Unable to create exclude triangles
+

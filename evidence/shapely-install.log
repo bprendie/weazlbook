@@ -1,0 +1,6 @@
+Resolved 2 packages in 421ms
+Downloading shapely (3.0MiB)
+ Downloaded shapely
+Prepared 1 package in 170ms
+Installed 1 package in 136ms
+ + shapely==2.1.2

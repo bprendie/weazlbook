@@ -1,0 +1,10 @@
+[0/2] Re-checking globbed directories...
+[1/7] Building C object CMakeFiles/pdfio.dir/vendor/pdfio/pdfio-value.c.o
+[2/7] Linking C static library libpdfio.a
+[3/7] Building CXX object CMakeFiles/wbcore.dir/native/epub.cpp.o
+/home/bobp/hardware/weazlbook/native/epub.cpp:17:40: warning: ignoring attributes on template argument ‘int (*)(FILE*)’ [-Wignored-attributes]
+   17 |  std::unique_ptr<FILE,decltype(&fclose)> f{nullptr,fclose};std::map<std::string,Entry> entries;
+      |                                        ^
+[4/7] Linking CXX static library libwbcore.a
+[5/7] Linking CXX executable wb-native
+[6/7] Linking CXX executable core-test

@@ -1,0 +1,149 @@
+Cloning into '.toolchains/esp-idf'...
+warning: refs/tags/v5.5.6 28871d80f730e6976c9bdc9c4cbff1c916e905a9 is not a commit!
+Note: switching to '880a203ae603d08a94d06aa01e0d6761958e5e9e'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+Updating files:  75% (14097/18703)Updating files:  76% (14215/18703)Updating files:  77% (14402/18703)Updating files:  78% (14589/18703)Updating files:  79% (14776/18703)Updating files:  80% (14963/18703)Updating files:  81% (15150/18703)Updating files:  82% (15337/18703)Updating files:  83% (15524/18703)Updating files:  84% (15711/18703)Updating files:  85% (15898/18703)Updating files:  86% (16085/18703)Updating files:  87% (16272/18703)Updating files:  88% (16459/18703)Updating files:  89% (16646/18703)Updating files:  90% (16833/18703)Updating files:  91% (17020/18703)Updating files:  92% (17207/18703)Updating files:  93% (17394/18703)Updating files:  94% (17581/18703)Updating files:  95% (17768/18703)Updating files:  96% (17955/18703)Updating files:  97% (18142/18703)Updating files:  98% (18329/18703)Updating files:  99% (18516/18703)Updating files: 100% (18703/18703)Updating files: 100% (18703/18703), done.
+Submodule 'components/bootloader/subproject/components/micro-ecc/micro-ecc' (https://github.com/kmackay/micro-ecc.git) registered for path 'components/bootloader/subproject/components/micro-ecc/micro-ecc'
+Submodule 'components/bt/controller/lib_esp32' (https://github.com/espressif/esp32-bt-lib.git) registered for path 'components/bt/controller/lib_esp32'
+Submodule 'components/bt/controller/lib_esp32c2/esp32c2-bt-lib' (https://github.com/espressif/esp32c2-bt-lib.git) registered for path 'components/bt/controller/lib_esp32c2/esp32c2-bt-lib'
+Submodule 'components/bt/controller/lib_esp32c3_family' (https://github.com/espressif/esp32c3-bt-lib.git) registered for path 'components/bt/controller/lib_esp32c3_family'
+Submodule 'components/bt/controller/lib_esp32c5/esp32c5-bt-lib' (https://github.com/espressif/esp32c5-bt-lib.git) registered for path 'components/bt/controller/lib_esp32c5/esp32c5-bt-lib'
+Submodule 'components/bt/controller/lib_esp32c6/esp32c6-bt-lib' (https://github.com/espressif/esp32c6-bt-lib.git) registered for path 'components/bt/controller/lib_esp32c6/esp32c6-bt-lib'
+Submodule 'components/bt/controller/lib_esp32h2/esp32h2-bt-lib' (https://github.com/espressif/esp32h2-bt-lib.git) registered for path 'components/bt/controller/lib_esp32h2/esp32h2-bt-lib'
+Submodule 'components/bt/esp_ble_mesh/lib/lib' (https://github.com/espressif/esp-ble-mesh-lib.git) registered for path 'components/bt/esp_ble_mesh/lib/lib'
+Submodule 'components/bt/host/nimble/nimble' (https://github.com/espressif/esp-nimble.git) registered for path 'components/bt/host/nimble/nimble'
+Submodule 'components/cmock/CMock' (https://github.com/ThrowTheSwitch/CMock.git) registered for path 'components/cmock/CMock'
+Submodule 'components/esp_coex/lib' (https://github.com/espressif/esp-coex-lib.git) registered for path 'components/esp_coex/lib'
+Submodule 'components/esp_phy/lib' (https://github.com/espressif/esp-phy-lib.git) registered for path 'components/esp_phy/lib'
+Submodule 'components/esp_wifi/lib' (https://github.com/espressif/esp32-wifi-lib.git) registered for path 'components/esp_wifi/lib'
+Submodule 'components/heap/tlsf' (https://github.com/espressif/tlsf.git) registered for path 'components/heap/tlsf'
+Submodule 'components/json/cJSON' (https://github.com/DaveGamble/cJSON.git) registered for path 'components/json/cJSON'
+Submodule 'components/lwip/lwip' (https://github.com/espressif/esp-lwip.git) registered for path 'components/lwip/lwip'
+Submodule 'components/mbedtls/mbedtls' (https://github.com/espressif/mbedtls.git) registered for path 'components/mbedtls/mbedtls'
+Submodule 'components/mqtt/esp-mqtt' (https://github.com/espressif/esp-mqtt.git) registered for path 'components/mqtt/esp-mqtt'
+Submodule 'components/openthread/lib' (https://github.com/espressif/esp-thread-lib.git) registered for path 'components/openthread/lib'
+Submodule 'components/openthread/openthread' (https://github.com/espressif/openthread.git) registered for path 'components/openthread/openthread'
+Submodule 'components/protobuf-c/protobuf-c' (https://github.com/protobuf-c/protobuf-c.git) registered for path 'components/protobuf-c/protobuf-c'
+Submodule 'components/spiffs/spiffs' (https://github.com/pellepl/spiffs.git) registered for path 'components/spiffs/spiffs'
+Submodule 'components/unity/unity' (https://github.com/ThrowTheSwitch/Unity.git) registered for path 'components/unity/unity'
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/bt/controller/lib_esp32'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/bt/controller/lib_esp32c2/esp32c2-bt-lib'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/bt/controller/lib_esp32c3_family'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/bt/controller/lib_esp32c5/esp32c5-bt-lib'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/bt/controller/lib_esp32c6/esp32c6-bt-lib'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/bt/controller/lib_esp32h2/esp32h2-bt-lib'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/bt/esp_ble_mesh/lib/lib'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/bt/host/nimble/nimble'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/cmock/CMock'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/esp_coex/lib'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/esp_phy/lib'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/esp_wifi/lib'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/heap/tlsf'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/json/cJSON'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/lwip/lwip'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/mbedtls/mbedtls'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/mqtt/esp-mqtt'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/openthread/lib'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/openthread/openthread'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/protobuf-c/protobuf-c'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/spiffs/spiffs'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/unity/unity'...
+From https://github.com/kmackay/micro-ecc
+ * branch            24c60e243580c7868f4334a1ba3123481fe1aa48 -> FETCH_HEAD
+Submodule path 'components/bootloader/subproject/components/micro-ecc/micro-ecc': checked out '24c60e243580c7868f4334a1ba3123481fe1aa48'
+Submodule path 'components/bt/controller/lib_esp32': checked out 'e4281c149690558467f75137d64bd5334076e7e1'
+Submodule path 'components/bt/controller/lib_esp32c2/esp32c2-bt-lib': checked out '6a5c0b8bfca1a2e984e89431b8ebf9b521dad5ea'
+Submodule path 'components/bt/controller/lib_esp32c3_family': checked out '0a08c4b32f3666003080b662a1a61794da24ff0f'
+From https://github.com/espressif/esp32c5-bt-lib
+ * branch            0b5cb2d7cfb4078e951da36a695bc4fb37e52391 -> FETCH_HEAD
+Submodule path 'components/bt/controller/lib_esp32c5/esp32c5-bt-lib': checked out '0b5cb2d7cfb4078e951da36a695bc4fb37e52391'
+From https://github.com/espressif/esp32c6-bt-lib
+ * branch            a00f2d0a19c54b9ca31358754fbb8b9a08cbb92c -> FETCH_HEAD
+Submodule path 'components/bt/controller/lib_esp32c6/esp32c6-bt-lib': checked out 'a00f2d0a19c54b9ca31358754fbb8b9a08cbb92c'
+From https://github.com/espressif/esp32h2-bt-lib
+ * branch            71685bf7530058c468ec9e28b2eebbe71df88741 -> FETCH_HEAD
+Submodule path 'components/bt/controller/lib_esp32h2/esp32h2-bt-lib': checked out '71685bf7530058c468ec9e28b2eebbe71df88741'
+From https://github.com/espressif/esp-ble-mesh-lib
+ * branch            428709f9e9b70f1cbc52931e433cf68c7673b0df -> FETCH_HEAD
+Submodule path 'components/bt/esp_ble_mesh/lib/lib': checked out '428709f9e9b70f1cbc52931e433cf68c7673b0df'
+From https://github.com/espressif/esp-nimble
+ * branch            71a1fd7bfd0654c6d174cc3f9cb007864f767cbc -> FETCH_HEAD
+Submodule path 'components/bt/host/nimble/nimble': checked out '71a1fd7bfd0654c6d174cc3f9cb007864f767cbc'
+From https://github.com/ThrowTheSwitch/CMock
+ * branch            eeecc49ce8af123cf8ad40efdb9673e37b56230f -> FETCH_HEAD
+Submodule path 'components/cmock/CMock': checked out 'eeecc49ce8af123cf8ad40efdb9673e37b56230f'
+Submodule 'vendor/c_exception' (https://github.com/throwtheswitch/cexception.git) registered for path 'components/cmock/CMock/vendor/c_exception'
+Submodule 'vendor/unity' (https://github.com/throwtheswitch/unity.git) registered for path 'components/cmock/CMock/vendor/unity'
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/cmock/CMock/vendor/c_exception'...
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/cmock/CMock/vendor/unity'...
+From https://github.com/throwtheswitch/cexception
+ * branch            71b47be7c950f1bf5f7e5303779fa99a16224bb6 -> FETCH_HEAD
+Submodule path 'components/cmock/CMock/vendor/c_exception': checked out '71b47be7c950f1bf5f7e5303779fa99a16224bb6'
+From https://github.com/throwtheswitch/unity
+ * branch            cf949f45ca6d172a177b00da21310607b97bc7a7 -> FETCH_HEAD
+Submodule path 'components/cmock/CMock/vendor/unity': checked out 'cf949f45ca6d172a177b00da21310607b97bc7a7'
+From https://github.com/espressif/esp-coex-lib
+ * branch            02c57071231dbe9f7555afcbb8ef86e35f517292 -> FETCH_HEAD
+Submodule path 'components/esp_coex/lib': checked out '02c57071231dbe9f7555afcbb8ef86e35f517292'
+From https://github.com/espressif/esp-phy-lib
+ * branch            5695f4f38108658bc4a33e4712c1ebcb34911434 -> FETCH_HEAD
+Submodule path 'components/esp_phy/lib': checked out '5695f4f38108658bc4a33e4712c1ebcb34911434'
+From https://github.com/espressif/esp32-wifi-lib
+ * branch            61bbece9cc8b3a6c8b2b5035f586db5d7abb95d2 -> FETCH_HEAD
+Submodule path 'components/esp_wifi/lib': checked out '61bbece9cc8b3a6c8b2b5035f586db5d7abb95d2'
+From https://github.com/espressif/tlsf
+ * branch            2867f6883a12920b1969ff9624c0ab0e4185c2ce -> FETCH_HEAD
+Submodule path 'components/heap/tlsf': checked out '2867f6883a12920b1969ff9624c0ab0e4185c2ce'
+From https://github.com/DaveGamble/cJSON
+ * branch            b2890c8d76bbb64e710585ebc0a917196b9c67e7 -> FETCH_HEAD
+Submodule path 'components/json/cJSON': checked out 'b2890c8d76bbb64e710585ebc0a917196b9c67e7'
+From https://github.com/espressif/esp-lwip
+ * branch            c6f2f878e7b0f86033214b85547d579be43351e3 -> FETCH_HEAD
+Submodule path 'components/lwip/lwip': checked out 'c6f2f878e7b0f86033214b85547d579be43351e3'
+From https://github.com/espressif/mbedtls
+ * branch            2b96dd8eebe880f304c69976b3c2fa0c5100cbb6 -> FETCH_HEAD
+Submodule path 'components/mbedtls/mbedtls': checked out '2b96dd8eebe880f304c69976b3c2fa0c5100cbb6'
+From https://github.com/espressif/esp-mqtt
+ * branch            0e9ec171b448db2101ea537300976b7ffe595941 -> FETCH_HEAD
+Submodule path 'components/mqtt/esp-mqtt': checked out '0e9ec171b448db2101ea537300976b7ffe595941'
+From https://github.com/espressif/esp-thread-lib
+ * branch            33209823e559560f54dcd41cbf3dbdd27f46d569 -> FETCH_HEAD
+Submodule path 'components/openthread/lib': checked out '33209823e559560f54dcd41cbf3dbdd27f46d569'
+From https://github.com/espressif/openthread
+ * branch            43cc05a9bcf780bd758bad53d897e2d88cf8cb75 -> FETCH_HEAD
+Submodule path 'components/openthread/openthread': checked out '43cc05a9bcf780bd758bad53d897e2d88cf8cb75'
+Submodule 'third_party/mbedtls/repo' (https://github.com/Mbed-TLS/mbedtls.git) registered for path 'components/openthread/openthread/third_party/mbedtls/repo'
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/openthread/openthread/third_party/mbedtls/repo'...
+From https://github.com/Mbed-TLS/mbedtls
+ * branch            e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df -> FETCH_HEAD
+Submodule path 'components/openthread/openthread/third_party/mbedtls/repo': checked out 'e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df'
+Submodule 'framework' (https://github.com/Mbed-TLS/mbedtls-framework) registered for path 'components/openthread/openthread/third_party/mbedtls/repo/framework'
+Cloning into '/home/bobp/hardware/weazlbook/.toolchains/esp-idf/components/openthread/openthread/third_party/mbedtls/repo/framework'...
+From https://github.com/Mbed-TLS/mbedtls-framework
+ * branch            457996474728cb8e968ed21953b72f74d2f536b2 -> FETCH_HEAD
+Submodule path 'components/openthread/openthread/third_party/mbedtls/repo/framework': checked out '457996474728cb8e968ed21953b72f74d2f536b2'
+From https://github.com/protobuf-c/protobuf-c
+ * branch            abc67a11c6db271bedbb9f58be85d6f4e2ea8389 -> FETCH_HEAD
+Submodule path 'components/protobuf-c/protobuf-c': checked out 'abc67a11c6db271bedbb9f58be85d6f4e2ea8389'
+From https://github.com/pellepl/spiffs
+ * branch            ad902cadceb39d0825a97e25ecb5867641f606ba -> FETCH_HEAD
+Submodule path 'components/spiffs/spiffs': checked out 'ad902cadceb39d0825a97e25ecb5867641f606ba'
+From https://github.com/ThrowTheSwitch/Unity
+ * branch            bf560290f6020737eafaa8b5cbd2177c3956c03f -> FETCH_HEAD
+Submodule path 'components/unity/unity': checked out 'bf560290f6020737eafaa8b5cbd2177c3956c03f'

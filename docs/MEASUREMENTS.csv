@@ -1,0 +1,21 @@
+feature,source_or_measurement,provisional_value,measured_value,resulting_clearance,status,affected_CAD_parameter
+Battery plug lead turn,R04 PH allowance and simultaneous real cable test,plug min X3.2; inner wall X2.4,,0.8 mm before lead bend,PENDING HARDWARE,PH envelope and local wall geometry
+PH rear clearance,R04 nominal sloped inner cover,Z21.1 at Y124,,about 0.2 mm at tight end,PENDING HARDWARE,cover_thickness and connector relief
+FPC fold,panel drawing recorded in R04; delivered flex measurement,R2; tip Y93; length33.66,,apex Y114.998; 2.002 mm to nav Y117,PENDING VENDOR AND HARDWARE,fpc_radius_assumed; fpc_seated_tip_y
+Driver insertion,C02 slot height and seated insertion measurement,Y adjustment +/-3,,not measured,PENDING HARDWARE,driver_adjustment; driver_y_offset
+Driver total depth,measure both PCB faces and stock header terminations,8 mm body and6 mm header,,not measured,PENDING HARDWARE,driver envelope and carrier cheeks
+Driver service access,physical opening sequence,carrier on rear cover,,not established,PENDING HARDWARE,driver carrier and cover bosses
+Nav stem,calipers and motion test,2.4 square coupon assumption only,,not measured,PENDING HARDWARE,nav_stem_square; nav_adapter_clearance
+Nav rear stack,R04 allowance,Z12.5,,1.5 mm to mainboard underside14,PENDING HARDWARE,nav_pcb_z and carrier shims
+Nav lateral retention,thumb force test,left edge retainers and front columns,,not validated,PENDING HARDWARE,nav carrier and retainers
+Key guide,printed coupon,0.2 mm per side,,0.4 mm total nominal,PENDING PRINT,key_clearance
+Key travel,actual switch force/travel and key coupon,0.2 plunger gap;0.4 stop travel,,not measured,PENDING HARDWARE,key_stop_travel
+Key carrier retention,R05 geometry review,12x10 bay insufficient for assumed side snaps,,no released retention,OPEN CAD DESIGN,removable chin rail required
+Battery protected pack,calipers including tape PCM and lead exit,30x36x6 envelope in32x38x7 bay,,nominal1 mm XY per side,PENDING HARDWARE,battery bay geometry
+Battery tray rear,R05 rim reduced0.5 mm,top Z16.4 atY74.3,,about1.115 mm to nominal inner plane,PENDING PRINT AND HARDWARE,battery_tray_rim_z
+Mainboard supports,actual PCB thickness and component-free clamp edges,PCB1.6 and module3.25,,0.2 nominal clamp gap for shim,PENDING HARDWARE,mainboard clamps and supports
+SD extraction,actual delivered socket release and direction,behind removable rear cover,,unknown,PENDING HARDWARE,no external card slot
+Service screws,M2 coupon torque and length check,pilot1.7;blind depth7;M2x8 candidate,,engagement depends head/recess stack,PENDING PRINT,pilot_diameter; screw_clearance
+ABS shrink,Polymaker actual spool dimensional coupon,XY scale1.0,,not measured,PENDING PRINT,abs_xy_scale
+TPU key face,95A printed face over ABS head,0.1 mm fit clearance;0.9 mm front pad,,retention and compression not measured,PENDING PRINT,key_face_clearance
+VBUS sensing circuit,assembled insulated resistor/cap module,18k/27k/1nF divider,,mounting envelope not modeled,OPEN CAD DESIGN,sensing board carrier and harness

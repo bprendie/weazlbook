@@ -1,0 +1,611 @@
+[
+  {
+    "project": "01_coupons.3mf",
+    "entries": [
+      {
+        "name": "ph_usb_wall.stl_1.model",
+        "min": [
+          179.800003,
+          132.99999,
+          0.0
+        ],
+        "max": [
+          209.800003,
+          151.99999,
+          23.319231
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "ph_usb_cover.stl_2.model",
+        "min": [
+          148.800002,
+          121.74264140000001,
+          0.0
+        ],
+        "max": [
+          167.800002,
+          152.0,
+          2.19352246
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "key_guide.stl_3.model",
+        "min": [
+          124.80000100000001,
+          136.0,
+          0.0
+        ],
+        "max": [
+          136.800001,
+          152.0,
+          2.4000001
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "fpc_radius_2_assumption.stl_4.model",
+        "min": [
+          102.8,
+          136.0,
+          0.0
+        ],
+        "max": [
+          112.8,
+          152.0,
+          5.0
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "pilot_1.5mm.stl_5.model",
+        "min": [
+          80.799999,
+          142.0,
+          0.0
+        ],
+        "max": [
+          90.799999,
+          152.0,
+          7.0
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "pilot_1.6mm.stl_6.model",
+        "min": [
+          80.799999,
+          120.0,
+          0.0
+        ],
+        "max": [
+          90.799999,
+          130.0,
+          7.0
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "pilot_1.7mm.stl_7.model",
+        "min": [
+          80.799999,
+          98.0,
+          0.0
+        ],
+        "max": [
+          90.799999,
+          108.0,
+          7.0
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "pilot_1.8mm.stl_8.model",
+        "min": [
+          102.799999,
+          98.0,
+          0.0
+        ],
+        "max": [
+          112.799999,
+          108.0,
+          7.0
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "pilot_1.9mm.stl_9.model",
+        "min": [
+          124.79999900000001,
+          98.0,
+          0.0
+        ],
+        "max": [
+          134.799999,
+          108.0,
+          7.0
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "key_slider.stl_10.model",
+        "min": [
+          60.19999762,
+          140.600002,
+          0.0
+        ],
+        "max": [
+          68.799998,
+          152.00000162,
+          3.9000001
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "nav_square_2.45mm.stl_11.model",
+        "min": [
+          40.199997,
+          144.0,
+          0.0
+        ],
+        "max": [
+          48.199997,
+          152.0,
+          5.0
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "nav_square_2.50mm.stl_12.model",
+        "min": [
+          40.199997,
+          124.0,
+          0.0
+        ],
+        "max": [
+          48.199997,
+          132.0,
+          5.0
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "nav_square_2.55mm.stl_13.model",
+        "min": [
+          60.199996999999996,
+          120.600002,
+          0.0
+        ],
+        "max": [
+          68.199997,
+          128.60000200000002,
+          5.0
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "nav_square_2.60mm.stl_14.model",
+        "min": [
+          60.199996999999996,
+          100.600002,
+          0.0
+        ],
+        "max": [
+          68.199997,
+          108.600002,
+          5.0
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "nav_square_2.65mm.stl_15.model",
+        "min": [
+          146.8,
+          101.742642,
+          0.0
+        ],
+        "max": [
+          154.8,
+          109.742642,
+          5.0
+        ],
+        "within_bed": true
+      }
+    ],
+    "xy_aabb_overlaps": [],
+    "actual_projected_overlaps": [],
+    "within_bed": true
+  },
+  {
+    "project": "acid_green.3mf",
+    "entries": [
+      {
+        "name": "shell.stl_1.model",
+        "min": [
+          46.99999999999997,
+          84.99999999999997,
+          0.0
+        ],
+        "max": [
+          203.0,
+          165.0,
+          23.5499992
+        ],
+        "within_bed": true
+      }
+    ],
+    "xy_aabb_overlaps": [],
+    "actual_projected_overlaps": [],
+    "within_bed": true
+  },
+  {
+    "project": "black.3mf",
+    "entries": [
+      {
+        "name": "bezel.stl_1.model",
+        "min": [
+          140.872291,
+          87.399993,
+          0.0
+        ],
+        "max": [
+          204.872291,
+          191.199996,
+          1.5
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "battery_tray.stl_2.model",
+        "min": [
+          91.87228619999999,
+          151.8000112,
+          0.0
+        ],
+        "max": [
+          128.87229,
+          191.200005,
+          7.79999924
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "driver_carrier_adjustable.stl_3.model",
+        "min": [
+          77.07132724806017,
+          87.99904997906019,
+          0.0
+        ],
+        "max": [
+          128.6901209175573,
+          139.6178436485573,
+          9.39999962
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "nav_carrier.stl_4.model",
+        "min": [
+          53.372287,
+          157.400007,
+          0.0
+        ],
+        "max": [
+          79.872287,
+          191.2000062,
+          1.19999981
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "display_bridge_0.stl_5.model",
+        "min": [
+          56.55917745399999,
+          77.822765438,
+          0.0
+        ],
+        "max": [
+          103.228225,
+          124.491812984,
+          0.5
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "display_bridge_1.stl_6.model",
+        "min": [
+          50.853488999999996,
+          143.400007,
+          0.0
+        ],
+        "max": [
+          80.853489,
+          145.400007,
+          0.5
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "back_carrier.stl_7.model",
+        "min": [
+          117.51111619,
+          69.748976,
+          0.0
+        ],
+        "max": [
+          133.067465372,
+          85.30532518199999,
+          5.50000048
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "mark_carrier.stl_8.model",
+        "min": [
+          60.684063818000006,
+          79.35473319,
+          0.0
+        ],
+        "max": [
+          76.240413,
+          94.911082372,
+          5.50000048
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "back_key.stl_9.model",
+        "min": [
+          78.64457099184634,
+          63.79837937004864,
+          0.0
+        ],
+        "max": [
+          92.786712,
+          77.94052037820231,
+          3.9000001
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "mark_key.stl_10.model",
+        "min": [
+          45.12770799184633,
+          97.31524237004865,
+          0.0
+        ],
+        "max": [
+          59.269849,
+          111.45738337820231,
+          3.9000001
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "cap_adapter_provisional.stl_11.model",
+        "min": [
+          122.87648482067085,
+          133.80421160360686,
+          0.0
+        ],
+        "max": [
+          128.87228875844988,
+          139.80001410239316,
+          6.3000002
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "nav_retainer_0.stl_12.model",
+        "min": [
+          145.067466,
+          73.399993,
+          0.0
+        ],
+        "max": [
+          152.067466,
+          75.399993,
+          4.3000002
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "nav_retainer_1.stl_13.model",
+        "min": [
+          107.74698897100001,
+          61.835432438,
+          0.0
+        ],
+        "max": [
+          114.11095,
+          68.199393467,
+          4.3000002
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "mainboard_clamp_1.stl_14.model",
+        "min": [
+          133.9633261245019,
+          60.321072068453255,
+          0.0
+        ],
+        "max": [
+          138.488816,
+          64.84656194395137,
+          2.79999924
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "mainboard_clamp_0.stl_15.model",
+        "min": [
+          164.06746494,
+          72.799995,
+          0.0
+        ],
+        "max": [
+          167.867468,
+          75.39999348,
+          2.79999924
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "mainboard_clamp_2.stl_16.model",
+        "min": [
+          150.48881494,
+          58.799995,
+          0.0
+        ],
+        "max": [
+          154.288818,
+          61.39999348,
+          2.79999924
+        ],
+        "within_bed": true
+      }
+    ],
+    "xy_aabb_overlaps": [
+      [
+        "driver_carrier_adjustable.stl_3.model",
+        "display_bridge_0.stl_5.model"
+      ],
+      [
+        "driver_carrier_adjustable.stl_3.model",
+        "cap_adapter_provisional.stl_11.model"
+      ],
+      [
+        "display_bridge_0.stl_5.model",
+        "mark_carrier.stl_8.model"
+      ],
+      [
+        "display_bridge_0.stl_5.model",
+        "back_key.stl_9.model"
+      ],
+      [
+        "display_bridge_0.stl_5.model",
+        "mark_key.stl_10.model"
+      ]
+    ],
+    "actual_projected_overlaps": [],
+    "within_bed": true
+  },
+  {
+    "project": "black_cover.3mf",
+    "entries": [
+      {
+        "name": "service_cover.stl_1.model",
+        "min": [
+          46.7695688,
+          85.0,
+          0.0
+        ],
+        "max": [
+          203.23043000000004,
+          165.00000000000003,
+          6.85666848
+        ],
+        "within_bed": true
+      }
+    ],
+    "xy_aabb_overlaps": [],
+    "actual_projected_overlaps": [],
+    "within_bed": true
+  },
+  {
+    "project": "cyan.3mf",
+    "entries": [
+      {
+        "name": "cyan_insert.stl_1.model",
+        "min": [
+          123.950001,
+          115.0,
+          0.0
+        ],
+        "max": [
+          126.0500009,
+          135.0,
+          0.5
+        ],
+        "within_bed": true
+      }
+    ],
+    "xy_aabb_overlaps": [],
+    "actual_projected_overlaps": [],
+    "within_bed": true
+  },
+  {
+    "project": "magenta.3mf",
+    "entries": [
+      {
+        "name": "magenta_insert.stl_1.model",
+        "min": [
+          123.950001,
+          116.5,
+          0.0
+        ],
+        "max": [
+          126.04999948000001,
+          133.5,
+          0.5
+        ],
+        "within_bed": true
+      }
+    ],
+    "xy_aabb_overlaps": [],
+    "actual_projected_overlaps": [],
+    "within_bed": true
+  },
+  {
+    "project": "tpu_black.3mf",
+    "entries": [
+      {
+        "name": "back_tpu_face.stl_1.model",
+        "min": [
+          124.0,
+          126.0,
+          0.0
+        ],
+        "max": [
+          134.0,
+          132.0,
+          2.0999999
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "mark_tpu_face.stl_2.model",
+        "min": [
+          124.0,
+          118.0,
+          0.0
+        ],
+        "max": [
+          134.0,
+          124.0,
+          2.0999999
+        ],
+        "within_bed": true
+      },
+      {
+        "name": "key_tpu_face.stl_3.model",
+        "min": [
+          116.0,
+          120.0,
+          0.0
+        ],
+        "max": [
+          122.0,
+          130.0,
+          2.0999999
+        ],
+        "within_bed": true
+      }
+    ],
+    "xy_aabb_overlaps": [],
+    "actual_projected_overlaps": [],
+    "within_bed": true
+  }
+]

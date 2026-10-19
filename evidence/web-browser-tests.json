@@ -1,0 +1,16 @@
+{
+  "url": "http://localhost:5000",
+  "title": "Neuromancer",
+  "initial_pages": 984,
+  "checks": [
+    "load",
+    "page turn",
+    "font change",
+    "named bookmark",
+    "reload persistence",
+    "delete bookmark",
+    "restore initial page"
+  ],
+  "javascript_errors": [],
+  "mobile_horizontal_overflow": false
+}

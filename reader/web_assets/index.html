@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>WeazlBook — Local reader</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header><a class="wordmark" href="/">weazl<span>book</span><sup>R05</sup></a><span class="local"><i></i> LOCAL / OFFLINE</span></header>
+<main>
+ <section class="intro"><div class="eyebrow">PERSONAL READING DECK</div><h1>Your books.<br>Your machine.</h1><p class="manifesto">Zero DRM.<br>Zero bullshit.</p><div class="rule"></div><p class="caption">A browser simulation of the 480 × 800 reader. Same local book engine. Same reading state.</p><div class="keys"><span>← →</span> turn a page<br><span>M</span> bookmark<br><span>Esc</span> back to library</div><p class="quiet">NEVER TAX THE GIG</p></section>
+ <section class="device-area" aria-label="WeazlBook reader simulator">
+  <div class="device"><span class="screw tl"></span><span class="screw tr"></span><span class="accent cyan"></span><span class="accent magenta"></span>
+   <div class="bezel"><img id="screen" src="/screen.png" alt="Current book page rendered in IBM Plex Mono" width="480" height="800"><div id="device-menu" aria-label="Reader main menu"><div class="menu-heading">YOUR LIBRARY</div><div id="device-menu-list"></div><div class="menu-footer">↑ ↓ CHOOSE · SELECT OPEN</div></div><button id="screensaver" hidden aria-label="Wake reader"><img src="/screensaver.png" alt="Monochrome weasel reading a book"><span class="sleep-title">We4zLbo0k</span><span class="sleep-hint">PRESS ANY KEY TO READ</span></button></div>
+   <div class="deck-line"><span>LOCAL READER</span><span>480 × 800 / 1 BIT</span></div>
+   <div class="nav" aria-label="Five way navigation"><button class="up" data-nav="up" aria-label="Previous menu item">⌃</button><button class="left" data-action="previous" aria-label="Previous page">‹</button><button class="select" data-nav="select" aria-label="Select">●</button><button class="right" data-action="next" aria-label="Next page">›</button><button class="down" data-nav="down" aria-label="Next menu item">⌄</button></div>
+   <div class="lower"><button id="back">BACK</button><button id="mark">MARK</button></div><span class="screw bl"></span><span class="screw br"></span>
+  </div><button id="sleep-toggle" aria-pressed="false">SCREENSAVER</button><div class="device-foot"><span>R05 / DESKTOP SIMULATION</span><span id="progress">—</span></div>
+ </section>
+ <aside><div class="eyebrow">NOW READING</div><h2 id="title">Loading…</h2><div class="progress-track"><div id="progress-bar"></div></div><div class="position"><span id="page-label">—</span><span id="source"></span></div>
+  <div class="toolbar"><button data-action="previous" aria-label="Previous page">←</button><button data-action="next" aria-label="Next page">→</button><label>TYPE <select id="font" aria-label="Font size"><option value="20">20 px</option><option value="24" selected>24 px</option><option value="28">28 px</option></select></label></div>
+  <nav class="tabs" aria-label="Reader panels"><button data-tab="contents">CONTENTS</button><button data-tab="bookmarks">MARKS <span id="mark-count">0</span></button><button data-tab="library" class="active">LIBRARY</button></nav>
+  <div id="list" class="list" role="list"></div>
+  <form id="goto"><label for="page-number">GO TO PAGE</label><input id="page-number" type="number" min="1" value="1" aria-label="Page number"><button>GO ↗</button></form>
+  <details><summary>Reading notes & state</summary><p id="notes"></p><p>Bookmarks and resume are saved on this computer. Font changes preserve your place.</p><button id="export">EXPORT STATE</button><label class="import">IMPORT STATE<input id="import" type="file" accept="application/json,.json"></label></details>
+  <button id="read-toggle">MARK AS READ</button>
+  <button id="settings-button">SETTINGS</button><button id="about-button">ABOUT</button><p class="lock-help">Hold BACK + MARK to lock · keyboard Esc + M</p>
+  <p id="status" role="status" aria-live="polite">Opening local book…</p>
+ </aside>
+</main>
+<dialog id="mark-dialog"><form method="dialog" id="mark-form"><div class="eyebrow">LEAVE A MARK</div><h2>Save this place.</h2><label for="mark-name">Bookmark name</label><input id="mark-name" maxlength="120" autocomplete="off"><div class="dialog-actions"><button value="cancel" formnovalidate>BACK</button><button id="save-mark" value="save">SAVE MARK ↗</button></div></form></dialog>
+<dialog id="lock-dialog"><div class="eyebrow">YOUR SECRET COMBO</div><h2>Set unlock sequence.</h2><p id="sequence-prompt">Enter 4–16 arrows, then confirm your sequence.</p><output id="sequence-preview" aria-live="polite">—</output><div class="sequence-pad"><button data-sequence="U" aria-label="Sequence up">↑</button><button data-sequence="D" aria-label="Sequence down">↓</button><button data-sequence="L" aria-label="Sequence left">←</button><button data-sequence="R" aria-label="Sequence right">→</button></div><div class="dialog-actions"><button id="sequence-clear">CLEAR</button><button id="sequence-next">CONFIRM</button><button id="sequence-cancel">CANCEL</button></div></dialog>
+<div class="sim-controls"><button id="reset-simulator">RESET SIMULATOR</button><p>Restores demo books and clears simulator codes/state. Source files stay untouched.</p></div><script src="/app.js" defer></script><script src="/lock.js" defer></script></body></html>

@@ -1,0 +1,562 @@
+[
+  {
+    "name": "aiohappyeyeballs",
+    "version": "2.7.1",
+    "license_expression": null,
+    "license": "PSF-2.0",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "aiohttp",
+    "version": "3.14.5",
+    "license_expression": "Apache-2.0 AND MIT",
+    "license": "",
+    "license_files": [
+      "LICENSE.txt",
+      "vendor/llhttp/LICENSE"
+    ]
+  },
+  {
+    "name": "aiosignal",
+    "version": "1.4.0",
+    "license_expression": null,
+    "license": "Apache 2.0",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "attrs",
+    "version": "26.1.0",
+    "license_expression": "MIT",
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "cadquery",
+    "version": "2.7.0",
+    "license_expression": null,
+    "license": "Apache Public License 2.0",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "cadquery-ocp",
+    "version": "7.8.1.1.post1",
+    "license_expression": null,
+    "license": "",
+    "license_files": []
+  },
+  {
+    "name": "cairocffi",
+    "version": "1.7.1",
+    "license_expression": null,
+    "license": "",
+    "license_files": []
+  },
+  {
+    "name": "CairoSVG",
+    "version": "2.8.2",
+    "license_expression": null,
+    "license": "LGPL-3.0-or-later",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "casadi",
+    "version": "3.8.1",
+    "license_expression": null,
+    "license": "GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "license_files": []
+  },
+  {
+    "name": "cffi",
+    "version": "2.1.1",
+    "license_expression": "MIT-0",
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "charset-normalizer",
+    "version": "3.5.2",
+    "license_expression": null,
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "cmake",
+    "version": "3.31.6",
+    "license_expression": null,
+    "license": "Apache 2.0",
+    "license_files": []
+  },
+  {
+    "name": "contourpy",
+    "version": "1.4.0",
+    "license_expression": "BSD-3-Clause",
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "cssselect2",
+    "version": "0.10.1",
+    "license_expression": null,
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "cycler",
+    "version": "0.12.1",
+    "license_expression": null,
+    "license": "Copyright (c) 2015, matplotlib project\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of the matplotlib project nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "defusedxml",
+    "version": "0.7.1",
+    "license_expression": null,
+    "license": "PSFL",
+    "license_files": []
+  },
+  {
+    "name": "ezdxf",
+    "version": "1.4.5",
+    "license_expression": null,
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "fonttools",
+    "version": "4.67.0",
+    "license_expression": null,
+    "license": "MIT",
+    "license_files": [
+      "LICENSE",
+      "LICENSE.external"
+    ]
+  },
+  {
+    "name": "frozenlist",
+    "version": "1.8.0",
+    "license_expression": null,
+    "license": "Apache-2.0",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "greenlet",
+    "version": "3.5.6",
+    "license_expression": "MIT AND PSF-2.0",
+    "license": "",
+    "license_files": [
+      "LICENSE",
+      "LICENSE.PSF"
+    ]
+  },
+  {
+    "name": "idna",
+    "version": "3.20",
+    "license_expression": "BSD-3-Clause",
+    "license": "",
+    "license_files": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "iniconfig",
+    "version": "2.3.1",
+    "license_expression": "MIT",
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "kiwisolver",
+    "version": "1.5.1",
+    "license_expression": null,
+    "license": "=========================\n The Kiwi licensing terms\n=========================\nKiwi is licensed under the terms of the Modified BSD License (also known as\nNew or Revised BSD), as follows:\n\nCopyright (c) 2013-2026, Nucleic Development Team\n\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this\nlist of conditions and the following disclaimer.\n\nRedistributions in binary form must reproduce the above copyright notice, this\nlist of conditions and the following disclaimer in the documentation and/or\nother materials provided with the distribution.\n\nNeither the name of the Nucleic Development Team nor the names of its\ncontributors may be used to endorse or promote products derived from this\nsoftware without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nAbout Kiwi\n----------\nChris Colbert began the Kiwi project in December 2013 in an effort to\ncreate a blisteringly fast UI constraint solver. Chris is still the\nproject lead.\n\nThe Nucleic Development Team is the set of all contributors to the Nucleic\nproject and its subprojects.\n\nThe core team that coordinates development on GitHub can be found here:\nhttp://github.com/nucleic. The current team consists of:\n\n* Chris Colbert\n\nOur Copyright Policy\n--------------------\nNucleic uses a shared copyright model. Each contributor maintains copyright\nover their contributions to Nucleic. But, it is important to note that these\ncontributions are typically only changes to the repositories. Thus, the Nucleic\nsource code, in its entirety is not the copyright of any single person or\ninstitution. Instead, it is the col",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "matplotlib",
+    "version": "3.11.2",
+    "license_expression": null,
+    "license": "License agreement for matplotlib versions 1.3.0 and later\n =========================================================\n\n 1. This LICENSE AGREEMENT is between the Matplotlib Development Team\n (\"MDT\"), and the Individual or Organization (\"Licensee\") accessing and\n otherwise using matplotlib software in source or binary form and its\n associated documentation.\n\n 2. Subject to the terms and conditions of this License Agreement, MDT\n hereby grants Licensee a nonexclusive, royalty-free, world-wide license\n to reproduce, analyze, test, perform and/or display publicly, prepare\n derivative works, distribute, and otherwise use matplotlib\n alone or in any derivative version, provided, however, that MDT's\n License Agreement and MDT's notice of copyright, i.e., \"Copyright (c)\n 2012- Matplotlib Development Team; All Rights Reserved\" are retained in\n matplotlib  alone or in any derivative version prepared by\n Licensee.\n\n 3. In the event Licensee prepares a derivative work that is based on or\n incorporates matplotlib or any part thereof, and wants to\n make the derivative work available to others as provided herein, then\n Licensee hereby agrees to include in any such work a brief summary of\n the changes made to matplotlib .\n\n 4. MDT is making matplotlib available to Licensee on an \"AS\n IS\" basis.  MDT MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\n IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, MDT MAKES NO AND\n DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\n FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF MATPLOTLIB\n WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n\n 5. MDT SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF MATPLOTLIB\n  FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR\n LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING\n MATPLOTLIB , OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF\n THE POSSIBILITY THEREOF.\n\n 6. This License Agreement will automatically terminate upon a material\n breach of its terms and conditions.\n\n 7. Nothing in this License Agreement shall be deemed to create any\n relationship of agency, partnership, or joint venture between MDT and\n Licensee.  This License Agreement does not grant permission to use MDT\n trademarks or trade name in a trademark sense to endorse or promote\n products or services of Licensee, or any third party.\n\n 8. By copying, installing or otherwise using matplotlib ,\n Licensee agrees to be bound by the terms and conditions of this License\n Agreement.\n\n License agreement for matplot",
+    "license_files": []
+  },
+  {
+    "name": "more-itertools",
+    "version": "11.2.1",
+    "license_expression": "MIT",
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "msgpack",
+    "version": "1.2.3",
+    "license_expression": "Apache-2.0",
+    "license": "",
+    "license_files": [
+      "COPYING"
+    ]
+  },
+  {
+    "name": "multidict",
+    "version": "7.1.0",
+    "license_expression": "Apache-2.0",
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "multimethod",
+    "version": "1.12",
+    "license_expression": null,
+    "license": "Copyright 2022 Aric Coady\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n     http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n",
+    "license_files": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "name": "nlopt",
+    "version": "2.11.0",
+    "license_expression": null,
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "numpy",
+    "version": "2.5.4",
+    "license_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "license": "",
+    "license_files": [
+      "LICENSE.txt",
+      "numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "numpy/_core/src/highway/LICENSE",
+      "numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+      "numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "numpy/_core/src/umath/svml/LICENSE",
+      "numpy/fft/pocketfft/LICENSE.md",
+      "numpy/linalg/lapack_lite/LICENSE.txt",
+      "numpy/ma/LICENSE",
+      "numpy/random/LICENSE.md",
+      "numpy/random/src/distributions/LICENSE.md",
+      "numpy/random/src/mt19937/LICENSE.md",
+      "numpy/random/src/pcg64/LICENSE.md",
+      "numpy/random/src/philox/LICENSE.md",
+      "numpy/random/src/sfc64/LICENSE.md",
+      "numpy/random/src/splitmix64/LICENSE.md"
+    ]
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "license_expression": "Apache-2.0 OR BSD-2-Clause",
+    "license": "",
+    "license_files": [
+      "LICENSE",
+      "LICENSE.APACHE",
+      "LICENSE.BSD"
+    ]
+  },
+  {
+    "name": "path",
+    "version": "17.1.1",
+    "license_expression": "MIT",
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "pillow",
+    "version": "11.3.0",
+    "license_expression": "MIT-CMU",
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "playwright",
+    "version": "1.55.0",
+    "license_expression": "Apache-2.0",
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "pluggy",
+    "version": "1.7.0",
+    "license_expression": null,
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "propcache",
+    "version": "0.5.4",
+    "license_expression": null,
+    "license": "Apache-2.0",
+    "license_files": [
+      "LICENSE",
+      "NOTICE"
+    ]
+  },
+  {
+    "name": "pycparser",
+    "version": "3.11",
+    "license_expression": "BSD-3-Clause",
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "pyee",
+    "version": "13.0.1",
+    "license_expression": null,
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "Pygments",
+    "version": "2.21.0",
+    "license_expression": "BSD-2-Clause",
+    "license": "",
+    "license_files": [
+      "AUTHORS",
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "pyparsing",
+    "version": "3.3.3",
+    "license_expression": "MIT",
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "pypdf",
+    "version": "6.1.1",
+    "license_expression": "BSD-3-Clause",
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "pytest",
+    "version": "8.4.2",
+    "license_expression": null,
+    "license": "MIT",
+    "license_files": [
+      "LICENSE",
+      "AUTHORS"
+    ]
+  },
+  {
+    "name": "python-dateutil",
+    "version": "2.9.0.post0",
+    "license_expression": null,
+    "license": "Dual License",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "PyYAML",
+    "version": "6.0.3",
+    "license_expression": null,
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "reportlab",
+    "version": "4.4.4",
+    "license_expression": null,
+    "license": "BSD license (see license.txt for details), Copyright (c) 2000-2025, ReportLab Inc.",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "runtype",
+    "version": "0.5.3",
+    "license_expression": null,
+    "license": "MIT",
+    "license_files": []
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "license_expression": null,
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "tinycss2",
+    "version": "1.5.1",
+    "license_expression": null,
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "trame",
+    "version": "4.0.0",
+    "license_expression": null,
+    "license": "Apache License 2.0",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "trame-client",
+    "version": "4.1.4",
+    "license_expression": null,
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "trame-common",
+    "version": "1.2.9",
+    "license_expression": null,
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "trame-components",
+    "version": "2.5.0",
+    "license_expression": null,
+    "license": "Apache License 2.0",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "trame-server",
+    "version": "4.1.0",
+    "license_expression": null,
+    "license": "Apache License 2.0",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "trame-vtk",
+    "version": "2.11.17",
+    "license_expression": null,
+    "license": "BSD License",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "trame-vuetify",
+    "version": "3.3.0",
+    "license_expression": null,
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "trimesh",
+    "version": "4.9.0",
+    "license_expression": null,
+    "license": "The MIT License (MIT)\n\nCopyright (c) 2023 Michael Dawson-Haggerty\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+    "license_files": [
+      "LICENSE.md"
+    ]
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "license_expression": "PSF-2.0",
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "vtk",
+    "version": "9.3.1",
+    "license_expression": null,
+    "license": "BSD",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "webencodings",
+    "version": "0.6.1",
+    "license_expression": null,
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "wslink",
+    "version": "2.6.0",
+    "license_expression": null,
+    "license": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "yarl",
+    "version": "1.25.1",
+    "license_expression": null,
+    "license": "Apache-2.0",
+    "license_files": [
+      "LICENSE",
+      "NOTICE"
+    ]
+  }
+]

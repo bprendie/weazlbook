@@ -1,0 +1,10 @@
+Resolved 9 packages in 503ms
+Prepared 7 packages in 102ms
+Installed 7 packages in 67ms
+ + cairocffi==1.7.1
+ + cairosvg==2.8.2
+ + cffi==2.1.1
+ + cssselect2==0.10.1
+ + pycparser==3.11
+ + tinycss2==1.5.1
+ + webencodings==0.6.1

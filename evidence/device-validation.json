@@ -1,0 +1,12 @@
+{
+  "firmware_build": "passed",
+  "radio_components_absent": [
+    "esp_wifi",
+    "bt",
+    "esp_coex"
+  ],
+  "radio_initialization_symbols_absent": true,
+  "python_tests": 17,
+  "browser_regression": "passed using disposable state on port 5001",
+  "hardware_validation": "pending: SD wipe/resume, USB lock gate, sleep/wake, display"
+}

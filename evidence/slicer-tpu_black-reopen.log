@@ -1,0 +1,47 @@
+[2026-10-19 12:16:14.444602] [0x00007f090fe61100] [trace]   Initializing StaticPrintConfigs
+[2026-10-19 12:16:14.507640] [0x00007f090fe61100] [error]   calc_exclude_triangles:Unable to create exclude triangles
+
+[2026-10-19 12:16:14.508359] [0x00007f090fe61100] [error]   calc_exclude_triangles:Unable to create exclude triangles
+
+[tpu_black.3mf]
+size_x = 10.000000
+size_y = 6.000000
+size_z = 2.100000
+min_x = -5.000000
+min_y = -3.000000
+min_z = -1.050000
+max_x = 5.000000
+max_y = 3.000000
+max_z = 1.050000
+number_of_facets = 44
+manifold = yes
+number_of_parts =  1
+volume = 87.503906
+[tpu_black.3mf]
+size_x = 10.000000
+size_y = 6.000000
+size_z = 2.100000
+min_x = -5.000000
+min_y = -3.000000
+min_z = -1.050000
+max_x = 5.000000
+max_y = 3.000000
+max_z = 1.050000
+number_of_facets = 44
+manifold = yes
+number_of_parts =  1
+volume = 87.503937
+[tpu_black.3mf]
+size_x = 10.000000
+size_y = 6.000000
+size_z = 2.100000
+min_x = -5.000000
+min_y = -3.000000
+min_z = -1.050000
+max_x = 5.000000
+max_y = 3.000000
+max_z = 1.050000
+number_of_facets = 44
+manifold = yes
+number_of_parts =  1
+volume = 87.503998

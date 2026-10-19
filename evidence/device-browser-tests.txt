@@ -1,0 +1,1 @@
+PASS: menu, settings, codes, About, lock API enforcement, reload, immediate duress, safe reset, hold MARK, READ, mobile

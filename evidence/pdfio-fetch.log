@@ -1,0 +1,19 @@
+Cloning into '.toolchains/pdfio'...
+warning: refs/tags/v1.6.5 0920888d51833b6017f3b7ca084edf9e90b06d6a is not a commit!
+Note: switching to '5102eddff28d9b605f3e6783d50ad380f61f692e'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+

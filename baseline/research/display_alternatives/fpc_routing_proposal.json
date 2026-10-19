@@ -1,0 +1,91 @@
+{
+  "coordinate_system": "Front-view device coordinates; x right, y down, z into housing; portrait panel flex points down before folding.",
+  "panel_origin_mm": [
+    11.88,
+    9.0
+  ],
+  "drawing_geometry": {
+    "panel_size_portrait_mm": [
+      56.24,
+      96.62,
+      0.92
+    ],
+    "bond_left_x_relative_mm": 17.66,
+    "bond_right_x_relative_mm_approx": 38.76,
+    "terminal_tongue_x_relative_mm_approx": [
+      0,
+      12.5
+    ],
+    "terminal_tongue_center_global_x_mm_approx": 18.13,
+    "unfolded_fpc_tip_global_y_mm": 139.28,
+    "tail_extension_from_panel_edge_mm": 33.66,
+    "tail_extension_tolerance_mm": 0.3,
+    "marked_fold_line_from_panel_edge_mm": 15.0,
+    "marked_fold_line_derivation": "17.40 mm to dogleg shoulder less 2.40 mm from shoulder to marked fold line.",
+    "adhesive_band_end_from_panel_edge_mm_approx": 6.45,
+    "adhesive_band_end_derivation": "Approximately 2.50 mm offset plus dimensioned 3.95 mm band height."
+  },
+  "proposed_route_not_verified": {
+    "model": "Parallel legs joined by one semicircular U turn; applies to the FPC sheet y coordinate, retaining its native leftward dogleg in x.",
+    "radius_mm": 2.0,
+    "panel_exit_y_mm": 105.62,
+    "panel_exit_z_mm": 3.3,
+    "seated_tip_y_mm": 93.0,
+    "return_leg_z_mm": 7.3,
+    "outbound_straight_mm": 7.378407346410203,
+    "semicircle_length_mm": 6.283185307179586,
+    "return_straight_mm": 19.998407346410207,
+    "maximum_y_mm": 114.9984073464102,
+    "bend_material_interval_past_panel_edge_mm": [
+      7.378407346410203,
+      13.66159265358979
+    ],
+    "adhesive_to_bend_nominal_gap_mm": 0.9284073464102027,
+    "swept_keepout_mm": {
+      "x": [
+        11,
+        52
+      ],
+      "y": [
+        91,
+        116
+      ],
+      "z": [
+        3,
+        8
+      ]
+    },
+    "cautions": [
+      "R2 is a routing assumption; manufacturer does not state permitted bend radius.",
+      "This moves bend from the vendor marked reference around15 mm; not physically validated.",
+      "Y93 is a seated TIP datum, not automatically the connector mouth or board edge.",
+      "Connector insertion depth and true slot height are unverified; keep a few millimeters of carrier Y adjustment.",
+      "Full FPC keepout is a proposed allocation, not a manufacturing tolerance envelope."
+    ]
+  },
+  "proposed_neighbors": {
+    "driver_approx_x_mm": [
+      7.1,
+      29.1
+    ],
+    "driver_nominal_y_mm": [
+      54,
+      95
+    ],
+    "driver_y_note": "Approximate; shift to place actual seated tip atY93 after measuring connector insertion depth.",
+    "nav_pcb_top_y_min_mm": 117,
+    "battery_x_mm": [
+      40,
+      72
+    ],
+    "battery_y_mm": [
+      75,
+      113
+    ],
+    "battery_z_mm": [
+      9.5,
+      16.5
+    ]
+  },
+  "reference": "GDEY0397T81P.pdf page5; use GDEY0397T81P_mechanical_drawing_upright.png"
+}

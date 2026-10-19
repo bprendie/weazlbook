@@ -1,0 +1,11 @@
+.bootstrap/
+.venv/
+.toolchains/
+__pycache__/
+.pytest_cache/
+firmware/build/
+firmware/managed_components/
+firmware/sdkconfig.old
+build/
+.reader-state/
+*.pyc

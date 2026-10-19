@@ -1,0 +1,273 @@
+SOURCE_PAGE 1 READER_PAGES 5
+Page 1, line 1: A local
+reader keeps each book and
+bookmark.
+Page 1, line 2: A local
+reader keeps each book and
+bookmark.
+Page 1, line 3: A local
+reader keeps each book and
+bookmark.
+Page 1, line 4: A local
+reader keeps each book and
+bookmark.
+Page 1, line 5: A local
+reader keeps each book and
+bookmark.
+Page 1, line 6: A local
+reader keeps each book and
+bookmark.
+Page 1, line 7: A local
+reader keeps each book and
+bookmark.
+Page 1, line 8: A local
+reader keeps each book and
+bookmark.
+Page 1, line 9: A local
+reader keeps each book and
+bookmark.
+Page 1, line 10: A local
+reader keeps each book and
+bookmark.
+Page 1, line 11: A local
+reader keeps each book and
+bookmark.
+Page 1, line 12: A local
+reader keeps each book and
+bookmark.
+Page 1, line 13: A local
+reader keeps each book and
+bookmark.
+Page 1, line 14: A local
+reader keeps each book and
+bookmark.
+Page 1, line 15: A local
+reader keeps each book and
+bookmark.
+Page 1, line 16: A local
+reader keeps each book and
+bookmark.
+Page 1, line 17: A local
+reader keeps each book and
+bookmark.
+Page 1, line 18: A local
+reader keeps each book and
+bookmark.
+Page 1, line 19: A local
+reader keeps each book and
+bookmark.
+Page 1, line 20: A local
+reader keeps each book and
+bookmark.
+Page 1, line 21: A local
+reader keeps each book and
+bookmark.
+Page 1, line 22: A local
+reader keeps each book and
+bookmark.
+Page 1, line 23: A local
+reader keeps each book and
+bookmark.
+Page 1, line 24: A local
+reader keeps each book and
+bookmark.
+Page 1, line 25: A local
+reader keeps each book and
+bookmark.
+Page 1, line 26: A local
+reader keeps each book and
+bookmark.
+Page 1, line 27: A local
+reader keeps each book and
+bookmark.
+Page 1, line 28: A local
+reader keeps each book and
+bookmark.
+Page 1, line 29: A local
+reader keeps each book and
+bookmark.
+Page 1, line 30: A local
+reader keeps each book and
+bookmark.
+SOURCE_PAGE 2 READER_PAGES 5
+Page 2, line 1: A local
+reader keeps each book and
+bookmark.
+Page 2, line 2: A local
+reader keeps each book and
+bookmark.
+Page 2, line 3: A local
+reader keeps each book and
+bookmark.
+Page 2, line 4: A local
+reader keeps each book and
+bookmark.
+Page 2, line 5: A local
+reader keeps each book and
+bookmark.
+Page 2, line 6: A local
+reader keeps each book and
+bookmark.
+Page 2, line 7: A local
+reader keeps each book and
+bookmark.
+Page 2, line 8: A local
+reader keeps each book and
+bookmark.
+Page 2, line 9: A local
+reader keeps each book and
+bookmark.
+Page 2, line 10: A local
+reader keeps each book and
+bookmark.
+Page 2, line 11: A local
+reader keeps each book and
+bookmark.
+Page 2, line 12: A local
+reader keeps each book and
+bookmark.
+Page 2, line 13: A local
+reader keeps each book and
+bookmark.
+Page 2, line 14: A local
+reader keeps each book and
+bookmark.
+Page 2, line 15: A local
+reader keeps each book and
+bookmark.
+Page 2, line 16: A local
+reader keeps each book and
+bookmark.
+Page 2, line 17: A local
+reader keeps each book and
+bookmark.
+Page 2, line 18: A local
+reader keeps each book and
+bookmark.
+Page 2, line 19: A local
+reader keeps each book and
+bookmark.
+Page 2, line 20: A local
+reader keeps each book and
+bookmark.
+Page 2, line 21: A local
+reader keeps each book and
+bookmark.
+Page 2, line 22: A local
+reader keeps each book and
+bookmark.
+Page 2, line 23: A local
+reader keeps each book and
+bookmark.
+Page 2, line 24: A local
+reader keeps each book and
+bookmark.
+Page 2, line 25: A local
+reader keeps each book and
+bookmark.
+Page 2, line 26: A local
+reader keeps each book and
+bookmark.
+Page 2, line 27: A local
+reader keeps each book and
+bookmark.
+Page 2, line 28: A local
+reader keeps each book and
+bookmark.
+Page 2, line 29: A local
+reader keeps each book and
+bookmark.
+Page 2, line 30: A local
+reader keeps each book and
+bookmark.
+SOURCE_PAGE 3 READER_PAGES 5
+Page 3, line 1: A local
+reader keeps each book and
+bookmark.
+Page 3, line 2: A local
+reader keeps each book and
+bookmark.
+Page 3, line 3: A local
+reader keeps each book and
+bookmark.
+Page 3, line 4: A local
+reader keeps each book and
+bookmark.
+Page 3, line 5: A local
+reader keeps each book and
+bookmark.
+Page 3, line 6: A local
+reader keeps each book and
+bookmark.
+Page 3, line 7: A local
+reader keeps each book and
+bookmark.
+Page 3, line 8: A local
+reader keeps each book and
+bookmark.
+Page 3, line 9: A local
+reader keeps each book and
+bookmark.
+Page 3, line 10: A local
+reader keeps each book and
+bookmark.
+Page 3, line 11: A local
+reader keeps each book and
+bookmark.
+Page 3, line 12: A local
+reader keeps each book and
+bookmark.
+Page 3, line 13: A local
+reader keeps each book and
+bookmark.
+Page 3, line 14: A local
+reader keeps each book and
+bookmark.
+Page 3, line 15: A local
+reader keeps each book and
+bookmark.
+Page 3, line 16: A local
+reader keeps each book and
+bookmark.
+Page 3, line 17: A local
+reader keeps each book and
+bookmark.
+Page 3, line 18: A local
+reader keeps each book and
+bookmark.
+Page 3, line 19: A local
+reader keeps each book and
+bookmark.
+Page 3, line 20: A local
+reader keeps each book and
+bookmark.
+Page 3, line 21: A local
+reader keeps each book and
+bookmark.
+Page 3, line 22: A local
+reader keeps each book and
+bookmark.
+Page 3, line 23: A local
+reader keeps each book and
+bookmark.
+Page 3, line 24: A local
+reader keeps each book and
+bookmark.
+Page 3, line 25: A local
+reader keeps each book and
+bookmark.
+Page 3, line 26: A local
+reader keeps each book and
+bookmark.
+Page 3, line 27: A local
+reader keeps each book and
+bookmark.
+Page 3, line 28: A local
+reader keeps each book and
+bookmark.
+Page 3, line 29: A local
+reader keeps each book and
+bookmark.
+Page 3, line 30: A local
+reader keeps each book and
+bookmark.

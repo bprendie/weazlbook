@@ -1,0 +1,96 @@
+{
+  "platform": "host Linux; these are NOT ESP32 runtime/memory measurements",
+  "cases": [
+    {
+      "file": "local.epub",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "elapsed_wall_ms": 12.968,
+      "metrics_or_reason": "pages=2 pdfio_peak_bytes=66060 live_bytes=0 elapsed_ms=6",
+      "output_bytes": 14970,
+      "pass": true
+    },
+    {
+      "file": "second.epub",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "elapsed_wall_ms": 13.17,
+      "metrics_or_reason": "pages=2 pdfio_peak_bytes=66066 live_bytes=0 elapsed_ms=6",
+      "output_bytes": 14970,
+      "pass": true
+    },
+    {
+      "file": "simple.pdf",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "elapsed_wall_ms": 14.426,
+      "metrics_or_reason": "pages=3 pdfio_peak_bytes=111142 live_bytes=0 elapsed_ms=2",
+      "output_bytes": 5640,
+      "pass": true
+    },
+    {
+      "file": "flate.pdf",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "elapsed_wall_ms": 9.197,
+      "metrics_or_reason": "pages=3 pdfio_peak_bytes=116503 live_bytes=0 elapsed_ms=2",
+      "output_bytes": 5640,
+      "pass": true
+    },
+    {
+      "file": "protected.epub",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "elapsed_wall_ms": 7.231,
+      "metrics_or_reason": "pages=-1 pdfio_peak_bytes=32847 live_bytes=0 elapsed_ms=0\nProtected EPUB content unsupported",
+      "output_bytes": 0,
+      "pass": true
+    },
+    {
+      "file": "encrypted.pdf",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "elapsed_wall_ms": 12.341,
+      "metrics_or_reason": "pages=-1 pdfio_peak_bytes=25356 live_bytes=0 elapsed_ms=0\nPDF parser: Unable to unlock PDF file.",
+      "output_bytes": 0,
+      "pass": true
+    },
+    {
+      "file": "scanned.pdf",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "elapsed_wall_ms": 7.428,
+      "metrics_or_reason": "pages=-1 pdfio_peak_bytes=114971 live_bytes=0 elapsed_ms=0\nSource page has no usable text (no OCR); import stopped, not silently omitted",
+      "output_bytes": 0,
+      "pass": true
+    },
+    {
+      "file": "mixed.pdf",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "elapsed_wall_ms": 13.852,
+      "metrics_or_reason": "pages=-1 pdfio_peak_bytes=115799 live_bytes=0 elapsed_ms=1\nSource page has no usable text (no OCR); import stopped, not silently omitted",
+      "output_bytes": 1880,
+      "pass": true
+    },
+    {
+      "file": "broken.pdf",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "elapsed_wall_ms": 23.155,
+      "metrics_or_reason": "pages=-1 pdfio_peak_bytes=8854 live_bytes=0 elapsed_ms=2\nPDF parser: WARNING: Unable to find start of cross-reference table, will attempt to rebuild.",
+      "output_bytes": 0,
+      "pass": true
+    },
+    {
+      "file": "broken.epub",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "elapsed_wall_ms": 9.954,
+      "metrics_or_reason": "pages=-1 pdfio_peak_bytes=0 live_bytes=0 elapsed_ms=0\nEPUB file size limit",
+      "output_bytes": 0,
+      "pass": true
+    }
+  ],
+  "max_child_rss_kib": 14428
+}

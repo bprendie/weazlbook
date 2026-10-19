@@ -1,0 +1,95 @@
+{
+  "units": "mm",
+  "nav": {
+    "part": "EC Buying five-way nav module, Amazon B0D8T4YQ3Y",
+    "seller_documented": {
+      "pcb_x": 31,
+      "pcb_y": 25,
+      "mounting_hole_diameter": 3
+    },
+    "seller_sources": [
+      "https://www.amazon.com/dp/B0D8T4YQ3Y",
+      "https://m.media-amazon.com/images/I/41uJqRvLsVL._AC_.jpg"
+    ],
+    "photo_estimates_not_verified": {
+      "header_projection_from_pcb_edge_approx": 6,
+      "bare_module_plan_x_approx": 37,
+      "basis": "Top-down seller photo scaled by labeled 31 x 25 mm board outline; no tolerance drawing."
+    },
+    "proposed_keepouts_not_part_dimensions": {
+      "plan_with_original_right_angle_header_and_wiring": [
+        50,
+        29
+      ],
+      "internal_depth_allocation": 12,
+      "note": "Provisional service-space allocations, NOT a verified upper bound or fit guarantee; connector model, stack height and bend radius still need validation."
+    },
+    "unknown": [
+      "PCB thickness",
+      "PCB outline/corner radii tolerances",
+      "mounting hole center coordinates",
+      "nav stem width, shape and exposed height",
+      "total switch height",
+      "rocker tilt and push travel",
+      "switch part number",
+      "mating connector and wired height"
+    ],
+    "mounting_advice": "Use adjustable or replaceable carrier; do not freeze case boss centers from photography. Carry wire strain relief on carrier, not switch stem."
+  },
+  "cap": {
+    "part": "Sprintek 109-00060 black rubber cap",
+    "manufacturer_documented_stem_compatibility": {
+      "square": [
+        2.4,
+        2.4
+      ],
+      "cylinder_diameter": 3.15
+    },
+    "source": "https://www.sprintek.com/en/order/Order.aspx",
+    "unknown": [
+      "outer diameter",
+      "height",
+      "socket depth",
+      "cap insertion force and retention",
+      "fit of proposed printed adapter onto Amazon stem"
+    ],
+    "note": "Compatibility is with Sprintek stem sizes, not Amazon nav module. Keep cap above bezel with adequate lateral travel; outer-cap sizing in visual must remain labeled provisional."
+  },
+  "back_mark": {
+    "selected_new_part": "2 x Omron B3F-1000",
+    "manufacturer_documented": {
+      "body": [
+        6,
+        6
+      ],
+      "body_tolerance_plus_minus": 0.2,
+      "height_above_seating_plane": 4.3,
+      "height_tolerance_plus_minus": 0.2,
+      "lead_inclusive_width": 7.7,
+      "lead_width_tolerance_plus_minus": 0.5,
+      "lead_projection_below_seating_plane": 3.5,
+      "plunger_diameter": 3.5,
+      "pcb_hole_spacing": [
+        6.5,
+        4.5
+      ],
+      "hole_spacing_tolerance_plus_minus": 0.1,
+      "pcb_hole_diameter": 1,
+      "pcb_hole_diameter_tolerance_plus_minus": 0.1,
+      "reference_carrier_thickness": 1.6,
+      "pretravel": 0.25,
+      "pretravel_plus": 0.2,
+      "pretravel_minus": 0.1,
+      "unspecified_dimension_tolerance_plus_minus": 0.4
+    },
+    "proposed_keepout_per_switch": [
+      12,
+      12,
+      9
+    ],
+    "keepout_note": "Design allocation includes carrier, legs and solder space, excludes printed user key and its guide. 4.3 + 3.5 = 7.8 mm nominal switch tip-to-leg-tip; carrier sits inside leg span, do not double-count full board thickness.",
+    "source": "https://components.omron.com/us-en/datasheet_pdf/A070-E1.pdf",
+    "local_dimension_drawing": "omron_B3F_page_4.png",
+    "mechanics": "Guide the printed key vertically, give it a retaining flange and a separately set travel stop; no preload at rest. Nominal pretravel is not the same as an allowable bottomed-out design travel."
+  }
+}

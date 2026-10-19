@@ -1,0 +1,215 @@
+[2026-10-19 12:16:10.501847] [0x00007f75a1fc7100] [trace]   Initializing StaticPrintConfigs
+[2026-10-19 12:16:10.614532] [0x00007f75a1fc7100] [error]   calc_exclude_triangles:Unable to create exclude triangles
+
+[2026-10-19 12:16:10.615270] [0x00007f75a1fc7100] [error]   calc_exclude_triangles:Unable to create exclude triangles
+
+[01_coupons.3mf]
+size_x = 19.000000
+size_y = 30.000000
+size_z = 23.319231
+min_x = -9.500000
+min_y = -15.000000
+min_z = -11.659616
+max_x = 9.500000
+max_y = 15.000000
+max_z = 11.659616
+number_of_facets = 740
+manifold = yes
+number_of_parts =  1
+volume = 2617.401855
+[01_coupons.3mf]
+size_x = 19.000000
+size_y = 30.257359
+size_z = 2.193522
+min_x = -9.500000
+min_y = -15.128679
+min_z = -1.096761
+max_x = 9.500000
+max_y = 15.128679
+max_z = 1.096761
+number_of_facets = 716
+manifold = yes
+number_of_parts =  1
+volume = 989.867432
+[01_coupons.3mf]
+size_x = 16.000000
+size_y = 12.000000
+size_z = 2.400000
+min_x = -8.000000
+min_y = -6.000000
+min_z = -1.200000
+max_x = 8.000000
+max_y = 6.000000
+max_z = 1.200000
+number_of_facets = 32
+manifold = yes
+number_of_parts =  1
+volume = 301.056030
+[01_coupons.3mf]
+size_x = 16.000000
+size_y = 10.000000
+size_z = 5.000000
+min_x = -8.000000
+min_y = -5.000000
+min_z = -2.500000
+max_x = 8.000000
+max_y = 5.000000
+max_z = 2.500000
+number_of_facets = 520
+manifold = yes
+number_of_parts =  1
+volume = 580.491577
+[01_coupons.3mf]
+size_x = 10.000000
+size_y = 10.000000
+size_z = 7.000000
+min_x = -5.000000
+min_y = -5.000000
+min_z = -3.500000
+max_x = 5.000000
+max_y = 5.000000
+max_z = 3.500000
+number_of_facets = 516
+manifold = yes
+number_of_parts =  1
+volume = 689.402710
+[01_coupons.3mf]
+size_x = 10.000000
+size_y = 10.000000
+size_z = 7.000000
+min_x = -5.000000
+min_y = -5.000000
+min_z = -3.500000
+max_x = 5.000000
+max_y = 5.000000
+max_z = 3.500000
+number_of_facets = 516
+manifold = yes
+number_of_parts =  1
+volume = 687.942139
+[01_coupons.3mf]
+size_x = 10.000000
+size_y = 10.000000
+size_z = 7.000000
+min_x = -5.000000
+min_y = -5.000000
+min_z = -3.500000
+max_x = 5.000000
+max_y = 5.000000
+max_z = 3.500000
+number_of_facets = 516
+manifold = yes
+number_of_parts =  1
+volume = 686.388000
+[01_coupons.3mf]
+size_x = 10.000000
+size_y = 10.000000
+size_z = 7.000000
+min_x = -5.000000
+min_y = -5.000000
+min_z = -3.500000
+max_x = 5.000000
+max_y = 5.000000
+max_z = 3.500000
+number_of_facets = 516
+manifold = yes
+number_of_parts =  1
+volume = 684.737244
+[01_coupons.3mf]
+size_x = 10.000000
+size_y = 10.000000
+size_z = 7.000000
+min_x = -5.000000
+min_y = -5.000000
+min_z = -3.500000
+max_x = 5.000000
+max_y = 5.000000
+max_z = 3.500000
+number_of_facets = 516
+manifold = yes
+number_of_parts =  1
+volume = 682.995239
+[01_coupons.3mf]
+size_x = 11.400000
+size_y = 8.600000
+size_z = 3.900000
+min_x = -5.700000
+min_y = -4.300000
+min_z = -1.950000
+max_x = 5.700000
+max_y = 4.300000
+max_z = 1.950000
+number_of_facets = 548
+manifold = yes
+number_of_parts =  1
+volume = 156.481476
+[01_coupons.3mf]
+size_x = 8.000000
+size_y = 8.000000
+size_z = 5.000000
+min_x = -4.000000
+min_y = -4.000000
+min_z = -2.500000
+max_x = 4.000000
+max_y = 4.000000
+max_z = 2.500000
+number_of_facets = 28
+manifold = yes
+number_of_parts =  1
+volume = 295.989990
+[01_coupons.3mf]
+size_x = 8.000000
+size_y = 8.000000
+size_z = 5.000000
+min_x = -4.000000
+min_y = -4.000000
+min_z = -2.500000
+max_x = 4.000000
+max_y = 4.000000
+max_z = 2.500000
+number_of_facets = 28
+manifold = yes
+number_of_parts =  1
+volume = 295.000031
+[01_coupons.3mf]
+size_x = 8.000000
+size_y = 8.000000
+size_z = 5.000000
+min_x = -4.000000
+min_y = -4.000000
+min_z = -2.500000
+max_x = 4.000000
+max_y = 4.000000
+max_z = 2.500000
+number_of_facets = 28
+manifold = yes
+number_of_parts =  1
+volume = 293.989990
+[01_coupons.3mf]
+size_x = 8.000000
+size_y = 8.000000
+size_z = 5.000000
+min_x = -4.000000
+min_y = -4.000000
+min_z = -2.500000
+max_x = 4.000000
+max_y = 4.000000
+max_z = 2.500000
+number_of_facets = 28
+manifold = yes
+number_of_parts =  1
+volume = 292.959930
+[01_coupons.3mf]
+size_x = 8.000000
+size_y = 8.000000
+size_z = 5.000000
+min_x = -4.000000
+min_y = -4.000000
+min_z = -2.500000
+max_x = 4.000000
+max_y = 4.000000
+max_z = 2.500000
+number_of_facets = 28
+manifold = yes
+number_of_parts =  1
+volume = 291.909973

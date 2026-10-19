@@ -1,0 +1,19 @@
+[2026-10-19 12:16:11.355327] [0x00007fd3f15c7100] [trace]   Initializing StaticPrintConfigs
+[2026-10-19 12:16:11.483912] [0x00007fd3f15c7100] [error]   calc_exclude_triangles:Unable to create exclude triangles
+
+[2026-10-19 12:16:11.484588] [0x00007fd3f15c7100] [error]   calc_exclude_triangles:Unable to create exclude triangles
+
+[acid_green.3mf]
+size_x = 80.000000
+size_y = 156.000000
+size_z = 23.549999
+min_x = -40.000000
+min_y = -78.000000
+min_z = -11.775000
+max_x = 40.000000
+max_y = 78.000000
+max_z = 11.775000
+number_of_facets = 14848
+manifold = yes
+number_of_parts =  1
+volume = 30756.841797

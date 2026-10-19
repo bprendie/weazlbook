@@ -1,0 +1,28 @@
+quantity,item,specification,source,status
+1,Panel,Good Display GDEY0397T81P SSD1677 480x800,https://www.good-display.com/product/613.html,Verify delivered suffix
+1,Panel adapter,Good Display DESPI-C02 stock header retained;RESE2.2ohm,https://www.good-display.com/product/516.html,Measure both faces
+1,Mainboard,WEMOS LOLIN S3 PRO v1.0.0 16MB quad flash 8MB octal PSRAM,https://www.wemos.cc/en/latest/s3/s3_pro.html,Verify PCB revision
+1,Battery,Adafruit1578 protected1S500mAh factory leads,https://www.adafruit.com/product/1578,Measure protected pack and polarity
+1,Navigation module,EC Buying B0D8T4YQ3Y31x25mm,https://www.amazon.com/dp/B0D8T4YQ3Y,Map contacts and measure stem
+1,Rubber cap,Sprintek109-00060 black,https://store.sprintek.com/category/flexpoint-pointing-stick,Measure socket and retention
+2,Tactile switch,Omron B3F-1000,https://components.omron.com/us-en/datasheet_pdf/A070-E1.pdf,Verify legs and installed travel
+1,Storage,microSD FAT card;capacity/model not selected,local supply,Qualification gate
+6,Service screws,M2x8 pan head stainless initial candidate,local supply,Length torque coupon required
+4,Bezel screws,M1.6x3 pan head initial candidate,local supply,Pilot depth and engagement pending
+4,Nav carrier screws,M1.6x6 countersunk initial candidate,local supply,Measure head seating and length
+2,Nav retainer screws,M1.6x8 pan head initial candidate,local supply,May share carrier screw locations;final lengths pending
+3,Mainboard clamp screws,M1.6x5 pan head initial candidate,local supply,Verify thread depth and edge contact
+4,Driver carrier screws,M1.6x4 pan head with washers,local supply,Short top bosses require length audit
+2,Battery tray screws,M1.6x4 pan head initial candidate,local supply,Length audit
+1,VBUS upper resistor,18.0kohm1%0.1W0603 metal film,local supply,Mounting carrier pending
+1,VBUS lower resistor,27.0kohm1%0.1W0603 metal film,local supply,Mounting carrier pending
+1,VBUS filter capacitor,1nF50V C0G0603,local supply,Optional;measure detach
+1,Sensing carrier,Insulated small perfboard/breakout;size not frozen,local supply,CAD unresolved
+3m,Device harness wire,28AWG stranded insulated105C minimum assorted identification,local supply,Cut allowances in electronics guide
+1,Display cable,Compatible10pin1mm SH board lead to8pin C02 header;continuity map,local supply,Connector exact MPN not established
+8,C02 terminations,2.54mm female contacts/housings matching stock header,local supply,Measure housing and heatshrink envelope
+1,Strain relief assortment,Nonconductive lacing and2mm heatshrink,local supply,Measure routing access
+1,Battery retention strap,6mm nonconductive fabric loop with pull tab,local supply,No pouch compression
+1,Display gasket/insulation,Nonconductive compliant film thickness selected from fit check,local supply,Not a fixed thickness claim
+4,Printed materials,Polymaker ABS acid green black cyan magenta;exact product/colors pending,https://shop.polymaker.com/products/polylite-abs/,0.4mm Kobra S1 confirmed
+1,Flexible button material,TPU95A black;two removable key shoes and fit coupon,local supply,Hardness confirmed;product unspecified

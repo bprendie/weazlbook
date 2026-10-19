@@ -1,0 +1,8 @@
+{
+  "desktop_tests": {"passed": 13, "log": "reader-tests.txt"},
+  "native_core": "passed; see core-tests.txt",
+  "existing_native_corpus": "10 cases passed; see native-corpus.json",
+  "alice": {"desktop_pages_24px": 315, "heading_links": 15, "native_sections": 10},
+  "browser": ["library selection", "chapter heading navigation", "font reflow", "refresh", "first page render", "lock regression"],
+  "usb_hardware_validation": "pending; no device flashed or host disk test performed"
+}

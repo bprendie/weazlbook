@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.20)
+set(COMPONENTS main)
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(weazlbook_r05)
+# No radio driver may enter the dependency graph, even through future features.
+idf_build_get_property(weazl_components BUILD_COMPONENTS)
+foreach(weazl_radio esp_wifi bt esp_coex)
+    if(weazl_radio IN_LIST weazl_components)
+        message(FATAL_ERROR "WeazlBook forbids radio component: ${weazl_radio}")
+    endif()
+endforeach()
