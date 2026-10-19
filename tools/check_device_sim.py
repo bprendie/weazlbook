@@ -22,8 +22,8 @@ with tempfile.TemporaryDirectory() as temp:
     page.locator('#sequence-next').click();page.wait_for_function("!document.querySelector('#lock-dialog').open")
    unlock=['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight']
    duress=['ArrowDown','ArrowDown','ArrowUp','ArrowUp','ArrowRight','ArrowLeft','ArrowRight','ArrowLeft']
-   setcode('Unlock code',unlock);setcode('Duress code',duress)
-   page.locator('#about-button').click();page.wait_for_function("state.title.includes('About')")
+   setcode('Unlock code',unlock);setcode('Nuke Code',duress)
+   page.locator('#about-button').click();page.wait_for_function("state.title.includes('file_id.diz')")
    page.keyboard.down('Escape');page.keyboard.down('m');page.keyboard.up('m');page.keyboard.up('Escape')
    page.wait_for_function('window.deviceLocked')
    assert page.request.get('http://localhost:5001/api/export').status==403

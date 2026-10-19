@@ -78,7 +78,7 @@ completed with 10 sections. See FORMATS.md for exact typography/size limits.
 ## Main menu, lock, duress and About update
 
 Implemented source: main menu completion/READ, Settings codes, About from root
-`about.md`, release-based MARK/hold-MARK/chord controls, persistent native lock
+`file_id.diz`, release-based MARK/hold-MARK/chord controls, persistent native lock
 with MSC gating, two-stage wipe with separate NVS journal, and idle light sleep.
 Firmware wipe uses a low-priority worker and resumes only on the original SD.
 The simulator has server-enforced locking and an external Reset simulator

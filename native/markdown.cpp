@@ -6,7 +6,7 @@
 #include <sstream>
 #include <stdexcept>
 namespace wb {
-bool markdown_extension(const std::string& path){auto p=path.rfind('.');if(p==std::string::npos)return false;auto ext=path.substr(p);for(auto&c:ext)c=std::tolower((unsigned char)c);return ext==".md"||ext==".markdown";}
+bool markdown_extension(const std::string& path){auto p=path.rfind('.');if(p==std::string::npos)return false;auto ext=path.substr(p);for(auto&c:ext)c=std::tolower((unsigned char)c);auto base=path.substr(path.find_last_of("/\\")==std::string::npos?0:path.find_last_of("/\\")+1);for(auto&c:base)c=std::tolower((unsigned char)c);return ext==".md"||ext==".markdown"||base=="file_id.diz";}
 std::string markdown_text(const std::string& input){
  if(input.size()>65536||input.find('\0')!=std::string::npos)throw std::runtime_error("Markdown limit 64 KiB; no NUL bytes");
  // Reject malformed UTF-8 rather than corrupting pagination anchors.

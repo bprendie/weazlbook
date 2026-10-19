@@ -37,9 +37,10 @@ static esp_err_t mount_card(bool fresh=false){
  return tinyusb_msc_new_storage_sdmmc(&c,&storage);
 }
 static void about_template(){
- struct stat st;if(!stat("/books/about.md",&st))return;
- FILE*f=fopen("/books/about.md","w");if(!f)return;
- fputs("# About this We4zLbo0k\n\n## Reader name\nYour name or nickname\n\n## If found\nPlease contact me using the details below.\n\n## Contact\nEmail or phone (optional)\n\n## Return instructions\nAdd a safe way to return this reader.\n",f);fclose(f);
+ struct stat st;if(!stat("/books/file_id.diz",&st))return;
+ if(!stat("/books/about.md",&st)){rename("/books/about.md","/books/file_id.diz");return;}
+ FILE*f=fopen("/books/file_id.diz","w");if(!f)return;
+ fputs("# file_id.diz\n\n## Reader name\nYour name or nickname\n\n## If found\nPlease contact me using the details below.\n\n## Contact\nEmail or phone (optional)\n\n## Return instructions\nAdd a safe way to return this reader.\n",f);fclose(f);
 }
 esp_err_t storage_init(){
  spi_bus_config_t bus={};bus.mosi_io_num=board::mosi;bus.miso_io_num=board::miso;bus.sclk_io_num=board::sck;bus.quadwp_io_num=-1;bus.quadhd_io_num=-1;bus.max_transfer_sz=4096;

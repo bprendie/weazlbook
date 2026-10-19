@@ -20,7 +20,7 @@ class Simulator:
     def __init__(self, paths, state):
         self.original_paths=[Path(p).expanduser().resolve() for p in paths]
         self.paths=list(self.original_paths)
-        self.about_path=Path(__file__).resolve().parents[1]/'about.md'
+        self.about_path=Path(__file__).resolve().parents[1]/'file_id.diz'
         self.store=Store(state); self.loaded={}; self.current=None; self.active=0
         self.lock=threading.RLock(); self.revision=0
         self.security=Security(self.store.root)

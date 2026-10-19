@@ -49,7 +49,7 @@ def load(path):
             return epub(path)
         if path.suffix.lower() == '.pdf':
             return pdf(path)
-        if path.suffix.lower() in ('.md', '.markdown'):
+        if path.suffix.lower() in ('.md', '.markdown') or path.name.lower() == 'file_id.diz':
             from .markdown import load_markdown
             return load_markdown(path, identity)
         raise Unsupported('Supported source extensions: .epub, .pdf, .md and .markdown')

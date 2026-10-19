@@ -1,3 +1,17 @@
 [0/2] Re-checking globbed directories...
-[1/3] Building CXX object CMakeFiles/core-test.dir/native/test_core.cpp.o
-[2/3] Linking CXX executable core-test
+[1/5] Building CXX object CMakeFiles/wbcore.dir/native/markdown.cpp.o
+/home/bobp/hardware/weazlbook/native/markdown.cpp: In function ‘std::string wb::markdown_file(const std::string&)’:
+/home/bobp/hardware/weazlbook/native/markdown.cpp:32:90: warning: ignoring attributes on template argument ‘int (*)(FILE*)’ [-Wignored-attributes]
+   32 | std::string markdown_file(const std::string& path){std::unique_ptr<FILE,decltype(&fclose)> f(fopen(path.c_str(),"rb"),fclose);if(!f)throw std::runtime_error("Markdown unavailable");std::string data(65537,'\0');size_t n=fread(data.data(),1,data.size(),f.get());if(ferror(f.get()))throw std::runtime_error("Markdown read failed");data.resize(n);return markdown_text(data);}
+      |                                                                                          ^
+/home/bobp/hardware/weazlbook/native/markdown.cpp: In constructor ‘wb::Markdown::Markdown(const std::string&)’:
+/home/bobp/hardware/weazlbook/native/markdown.cpp:34:40: warning: ignoring attributes on template argument ‘int (*)(FILE*)’ [-Wignored-attributes]
+   34 |  std::unique_ptr<FILE,decltype(&fclose)> f(fopen(path.c_str(),"rb"),fclose);if(!f)throw std::runtime_error("Markdown unavailable");
+      |                                        ^
+/home/bobp/hardware/weazlbook/native/markdown.cpp: In member function ‘std::string wb::Markdown::chapter(size_t) const’:
+/home/bobp/hardware/weazlbook/native/markdown.cpp:48:40: warning: ignoring attributes on template argument ‘int (*)(FILE*)’ [-Wignored-attributes]
+   48 |  std::unique_ptr<FILE,decltype(&fclose)> f(fopen(path_.c_str(),"rb"),fclose);if(!f||fseek(f.get(),boundaries_[index],SEEK_SET))throw std::runtime_error("Markdown unavailable");
+      |                                        ^
+[2/5] Linking CXX static library libwbcore.a
+[3/5] Linking CXX executable wb-native
+[4/5] Linking CXX executable core-test

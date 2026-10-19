@@ -9,3 +9,8 @@ firmware/sdkconfig.old
 build/
 .reader-state/
 *.pyc
+
+# Imported books are local; only the generated test EPUBs belong in Git.
+*.epub
+!fixtures/*.epub
+*[Nn]euromancer*.epub

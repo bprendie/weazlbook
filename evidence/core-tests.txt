@@ -1,8 +1,8 @@
 Internal ctest changing into directory: /home/bobp/hardware/weazlbook/build
 Test project /home/bobp/hardware/weazlbook/build
     Start 1: core
-1/1 Test #1: core .............................   Passed    0.01 sec
+1/1 Test #1: core .............................   Passed    0.00 sec
 
 100% tests passed, 0 tests failed out of 1
 
-Total Test time (real) =   0.01 sec
+Total Test time (real) =   0.00 sec

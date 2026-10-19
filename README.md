@@ -1,80 +1,63 @@
-# WeazlBook — R05 engineering prototype
+# We4zLbo0k
 
-**Local reader simulator is running at http://localhost:5000.** It opens the user's
-`~/Downloads/neuromancer.epub` directly, plus the supplied
-`Alice's Adventures in Wonderland.md` in this repository. Neuromancer is not copied
-into this project.
+**Your books. Your machine. Your choice to keep—or erase.**
 
-This repository continues the supplied R04 packaging study. The original ZIP,
-PDF, handoff and extracted `baseline/` are preserved. R05 is **not a finished or
-physically validated reader**. See [status](docs/STATUS.md) for the exact limits.
+We4zLbo0k is a DIY pocket e-paper reader engineered for digital sovereignty. No accounts. No cloud sync. No telemetry. No radios. Zero enshittification. You buy the components, print the chassis, wire the board, and flash the firmware. You own the machine.
 
-## Use the reader
+Weazl Knows, Weazl is Wise. Weazl never taxes the gig.
 
-```bash
-.venv/bin/python -m reader.web --book ~/Downloads/neuromancer.epub --book "Alice's Adventures in Wonderland.md" --port 5000
+![We4zLbo0k local simulator showing the monochrome weasel screensaver and book library](docs/images/we4zlbo0k-simulator.png)
+
+*Local browser simulator—not a photograph of validated hardware.*
+
+## CAPABILITIES
+
+* **Supported Formats:** EPUB, PDF, and raw Markdown, within the documented [format limits](docs/FORMATS.md).
+* **Data Transfer:** Physical USB sideloading to a FAT32 SD card. No wireless transfer.
+* **Reading:** Book library, completion and READ status, resume positions, bookmarks, and IBM Plex Mono text.
+* **Total Ownership:** No subscriptions, no proprietary walled gardens, no over-the-air updates altering your feature set.
+
+## THREAT MODEL & NUKE ARCHITECTURE
+
+This deck is designed for offline ownership and deliberate control over your data. Its physical-security behavior is still an engineering prototype.
+
+* **The Vault Lock:** A user-defined directional arrow combo locks the interface. **Locked UI = no USB storage access.** The firmware refuses to expose the SD card while locked; plugging in a cable never unlocks it. Eject and unplug an existing USB session before locking. This does not encrypt the card or protect it from physical removal.
+* **The Nuke Code:** A dedicated, secondary combo triggers an immediate, zero-confirmation wipe request. Unlock and Nuke Codes use independently salted PBKDF2-HMAC-SHA256 verifiers stored inside the ESP32, separate from the SD card and firmware binary.
+* **Execution:** The firmware records a persistent wipe job, then clears files, settings, bookmarks, owner information, and both codes. The current first stage logically deletes SD files; it does not instantly destroy the partition table.
+* **Scorched Earth:** A resumable whole-card logical overwrite follows in the background. USB storage stays blocked throughout. The installed firmware and wipe checkpoint survive so the job can resume after power loss. Completion creates a fresh FAT32 filesystem and blank owner-info scaffold. An explicit fresh partition layout and on-screen wipe progress remain planned work.
+* **Technical Reality Check:** Flash controllers use wear-leveling and can retain data outside the exposed logical address space. A sector overwrite cannot guarantee forensic-grade erasure of those cells. This prototype is not a high-risk data-protection system. See the [wipe design, limitations and validation status](docs/DEVICE_CONTROLS.md).
+
+The simulator lets you exercise the Nuke Code safely: it clears simulated state and the virtual library, **never the original book files on your computer**. **Reset simulator** restores the demo library and clears its codes.
+
+## ASSEMBLY
+
+Fully self-reliant. There is no pre-assembled commercial kit.
+
+1. **Source:** Procure the hardware from the [BOM](docs/BOM.csv).
+2. **Print:** Fabricate the chassis using the [printing and calibration guide](docs/PRINTING.md).
+3. **Wire:** Assemble the display, battery circuit, tactile switches, and microcontroller using the [electronics notes](docs/ELECTRONICS.md) and [assembly guide](docs/ASSEMBLY.md).
+4. **Flash:** Compile and flash the ESP32 firmware over USB. It uses ESP-IDF/FreeRTOS; see the [development guide](docs/DEVELOPMENT.md).
+
+## HARDWARE STATUS: ENGINEERING PROTOTYPE
+
+**WARNING:** We4zLbo0k is an active engineering prototype. Physical security hardening, sleep/wake responsiveness, battery consumption, and wipe-recovery resiliency require hardware validation. No board has been flashed in this project's recorded validation, and panel initialization/update remains gated. Do not deploy in high-risk environments until the architecture is proven on your specific component loadout.
+
+The local simulator and host tests run; firmware compiles. Neither establishes working panel hardware or a validated secure wipe. See [current status](docs/STATUS.md), [device controls](docs/DEVICE_CONTROLS.md), and [build/test instructions](docs/DEVELOPMENT.md).
+
+---
+
+### `file_id.diz`
+
+```text
+Title    : We4zLbo0k Sovereign Reader
+Author   : thaweazl
+Desc     : Offline pocket e-paper deck. EPUB/PDF/MD.
+           Combo lock + Nuke Code.
+           Sideload only. Locked UI = Locked USB.
+           DIY build. Zero cloud. Zero radios.
+Status   : Engineering prototype. Hardware validation pending.
 ```
 
-Open [localhost:5000](http://localhost:5000). Left/right turn pages; **M** or MARK
-saves a named bookmark; the contents/marks/library panels navigate the book.
-Font sizes 20, 24 and 28 px reflow IBM Plex Mono. State is stored locally in
-`.reader-state/web/`. Export/import is under “Reading notes & state.” The server
-binds only to loopback. No cloud account, remote font or hosted service is used.
+The editable root [`file_id.diz`](file_id.diz) holds your reader name, contact details and "if lost" instructions. Open it from the device menu; edit it with a text editor over USB. A Nuke removes that personal information too.
 
-Alternative desktop window / headless render:
-
-```bash
-.venv/bin/python -m reader fixtures --gui
-.venv/bin/python -m reader --render fixtures/local.epub artifacts/reader-preview.png
-```
-
-Main menu shows completion and READ status. Settings holds unlock/duress codes;
-About reads the editable root `about.md`. Reset simulator safely restores demo
-state after testing duress. See [device controls and wipe limits](docs/DEVICE_CONTROLS.md).
-
-## Build and verify
-
-The current checkout has an isolated Python 3.12 environment and ESP-IDF tools.
-Recreate with `bash tools/bootstrap.sh` (downloads dependencies once); subsequent
-reading and ordinary builds use local files.
-
-```bash
-.venv/bin/python tools/fixtures.py
-.venv/bin/python -m pytest -q
-.venv/bin/cmake -S . -B build -G Ninja
-.venv/bin/cmake --build build
-.venv/bin/ctest --test-dir build --output-on-failure
-.venv/bin/python tools/native_validation.py
-.venv/bin/python tools/fonts.py
-bash tools/idf.sh build
-.venv/bin/python cad/build.py
-.venv/bin/python tools/plates.py
-```
-
-Firmware build output: `firmware/build/weazlbook_r05.bin`, ELF, map, bootloader and
-partition table. No board has been flashed. **The display initialization/update
-path is still gated**, so this is a bring-up build, not working panel firmware.
-Native EPUB/PDF/Markdown parser and UI sources are compiled into it; desktop tests are
-separately recorded. Read [formats](docs/FORMATS.md) before testing a book.
-
-CAD exports: `artifacts/cad/assembly.step`, individual `step/` and `stl/`, fit
-`coupons/`, engineering `views/`. `reference_envelopes.step` is explicitly
-non-printable component/keepout reference geometry. Source is `cad/build.py` and
-`cad/parameters.json`.
-
-Slicer projects: `artifacts/plates/` — Kobra S1, confirmed 0.4 mm nozzle,
-provisional Polymaker PolyLite ABS. Seven independent jobs, including separate95A TPU key faces; no ACE required.
-[Printing and calibration](docs/PRINTING.md) explains the speed/flow assumptions.
-
-## Engineering records
-
-- [Status and remaining gates](docs/STATUS.md)
-- [Assembly and measurements](docs/ASSEMBLY.md), [measurement register](docs/MEASUREMENTS.csv)
-- [Electronics and bring-up](docs/ELECTRONICS.md), [BOM](docs/BOM.csv)
-- [Portable state](docs/STATE.md), [supported formats](docs/FORMATS.md)
-- [Dependency and license notices](docs/DEPENDENCIES.md)
-- `evidence/`: actual build/test/slicer logs and machine-readable checks.
-
-New project code and parametric CAD are MIT licensed. Supplied R04 assets retain
-their original rights; IBM Plex Mono is separately SIL OFL licensed. Nothing here
-grants rights to distribute books imported by the reader.
+New project code and parametric CAD are MIT licensed. Supplied R04 assets retain their original rights; IBM Plex Mono uses the SIL Open Font License. See [dependency and license notices](docs/DEPENDENCIES.md). No rights to redistribute imported books are granted.
